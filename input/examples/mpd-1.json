@@ -1,0 +1,86 @@
+{
+    "resourceType": "MedicinalProductDefinition",
+    "id": "Japan32",
+    "identifier": [
+      {
+        "system": "http://iyaku.info/medicine",
+        "value": "2189011F1262"
+      }
+    ],
+    "type": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/medicinal-product-type",
+          "code": "MedicinalProduct"
+        }
+      ]
+    },
+    "domain": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/medicinal-product-domain",
+          "code": "Human"
+        }
+      ],
+      "text": "Human use"
+    },
+    "status": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/publication-status",
+          "code": "active"
+        }
+      ],
+      "text": "Active"
+    },
+    "contact": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/medicinal-product-contact-type",
+              "code": "ProposedMAH"
+            }
+          ]
+        },
+        "contact": {
+          "reference": "Organization/大原薬品工業株式会社",
+          "type": "Market Authorization Holder",
+          "display": "大原薬品工業株式会社"
+        }
+      }
+    ],
+    "name": [
+      {
+        "productName": "シンバスタチン錠５mg「オーハラ」",
+        "usage": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "system": "urn:iso:std:iso:3166",
+                  "code": "JPN"
+                }
+              ]
+            },
+            "jurisdiction": {
+              "coding": [
+                {
+                  "system": "urn:iso:std:iso:3166",
+                  "code": "JPN"
+                }
+              ]
+            },
+            "language": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/ValueSet/languages",
+                  "code": "ja"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

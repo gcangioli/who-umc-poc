@@ -1,0 +1,69 @@
+# ╭────────────────────────────────────────────────────────────────────────────────────────────────╮
+# │  ACTION REQUIRED: REVIEW AND EDIT THIS FILE TO ENSURE IT ACCURATELY REFLECTS YOUR PROJECT!     │
+# │                                                                                                │
+# │  This file was generated from your existing project files and will be used for SUSHI           │
+# │  configuration from now on. You may delete your package.json as it is no longer needed.        │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+# ╭──────────────────────────────ImplementationGuide-gatekeeper.json───────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see:                                                                    │
+# │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: who-umc.fhir.poc-php
+canonical: http://who-umc.org/fhir/php
+version: 0.1.0
+name: WhoUmcPhPProofOfConcept
+title: PhP on Fhir demo API 
+status: active
+publisher:
+  name: WHO UMC
+  url: http://who-umc.org
+contact:
+  - name: WHO UMC
+    telecom:
+      - system: url
+        value: http://who-umc.org
+
+description: This is a proof of concept
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+license: CC0-1.0
+fhirVersion: 5.0.0
+# dependencies:
+#   hl7.fhir.uv.ips: current
+parameters:
+  # show-inherited-invariants: false
+  produce-jekyll-data: true
+
+copyrightYear: 2023+
+releaseLabel: CI Build
+
+instanceOptions:
+  manualSliceOrdering: true
+
+
+FSHOnly: false
+
+pages:
+  index.md:
+    title: Home Page   
+ # profiles.md:
+  #  title: Profiles
+ # terminologies.md:
+  #  title: Terminology
+  downloads.html:
+    title: Useful Downloads
+  changes.html:
+    title: IG Change History
+
+		
+menu:
+  IG Home: index.html
+  Table of Contents: toc.html
+ # Specifications:
+  #  Profiles: profiles.html
+   # Terminology: terminologies.html
+  Artifact Index: artifacts.html			
+  Support:
+    FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html
+    Downloads: downloads.html

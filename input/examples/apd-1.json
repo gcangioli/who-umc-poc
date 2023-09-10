@@ -1,0 +1,137 @@
+{
+    "resourceType": "AdministrableProductDefinition",
+    "id": "F92168108C432D63DACDD70444176BB3",
+    "text": {
+      "status": "generated",
+      "div": "<div><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>F92168108C432D63DACDD70444176BB3</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>4</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>Simvastatin</td><td>5 mg</td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Pharmaceutical Form</td><td>Film-coated tablet (10221000)</td></tr><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration methods </td><td>Swallowing (0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended sites </td><td>Oral  (0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics </td><td>Conventional (0047)</td></tr></table></div>"
+    },
+    "contained": [
+      {
+        "resourceType": "Ingredient",
+        "id": "5860a604-648b-4a53-98c1-af4c025a5948",
+        "status": "active",
+        "for": [
+          {
+            "reference": "#"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ingredient-role",
+              "code": "100000072072"
+            }
+          ],
+          "text": "Active"
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "http://www.who-umc.org/gsrs",
+                  "code": "GSID8Z9T5R9742"
+                }
+              ],
+              "text": "Simvastatin"
+            }
+          },
+          "strength": [
+            {
+              "presentationQuantity": {
+                "value": 5,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "textPresentation": "5 mg"
+            }
+          ]
+        }
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://umc-ext-dev-phponfhirdemo-systemtest-rg01-webapp.azurewebsites.net/StructureDefinition/ParentPhPId",
+        "valueReference": {
+          "reference": "AdministrableProductDefinition/18312FB9DE461A4C48A066CFCCB740FE",
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://umc-ext-dev-phponfhirdemo-systemtest-rg01-webapp.azurewebsites.net/CodeSystem/phplevel",
+                  "code": "3"
+                }
+              ]
+            },
+            "system": "http://www.who-umc.org/PhPId",
+            "value": "18312FB9DE461A4C48A066CFCCB740FE"
+          }
+        }
+      },
+      {
+        "url": "https://umc-ext-dev-phponfhirdemo-systemtest-rg01-webapp.azurewebsites.net/StructureDefinition/ParentPhPId",
+        "valueReference": {
+          "reference": "AdministrableProductDefinition/E5F3ECDD53C3F7AD4B71690B9D9EA253",
+          "identifier": {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://umc-ext-dev-phponfhirdemo-systemtest-rg01-webapp.azurewebsites.net/CodeSystem/phplevel",
+                  "code": "2"
+                }
+              ]
+            },
+            "system": "http://www.who-umc.org/PhPId",
+            "value": "E5F3ECDD53C3F7AD4B71690B9D9EA253"
+          }
+        }
+      }
+    ],
+    "identifier": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "https://umc-ext-dev-phponfhirdemo-systemtest-rg01-webapp.azurewebsites.net/CodeSystem/phplevel",
+              "code": "4"
+            }
+          ]
+        },
+        "system": "http://www.who-umc.org/PhPId",
+        "value": "F92168108C432D63DACDD70444176BB3"
+      }
+    ],
+    "status": "active",
+    "formOf": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "unsupported"
+          }
+        ]
+      }
+    ],
+    "administrableDoseForm": {
+      "coding": [
+        {
+          "system": "https://standardterms.edqm.eu",
+          "code": "10221000",
+          "display": "Film-coated tablet"
+        }
+      ]
+    },
+    "routeOfAdministration": [
+      {
+        "code": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "not-applicable"
+            }
+          ]
+        }
+      }
+    ]
+  }

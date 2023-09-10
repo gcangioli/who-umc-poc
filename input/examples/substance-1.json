@@ -1,0 +1,79 @@
+{
+    "resourceType": "SubstanceDefinition",
+    "id": "GSID77CC76XH15",
+    "text": {
+      "status": "generated",
+      "div": "<div><h1>Substance definition</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>GSID77CC76XH15</td></tr></table><h2>Name(s)</h2><table><th>Name</th><th>Language</th><th>Preferred</th><tr><td>Carbamazepine</td><td>en</td><td>True</td></tr></table><h2>Other code systems</h2><table><th>System</th><th>Code</th><tr><td>ATC</td><td></td></tr><tr><td>RxNorm</td><td></td></tr><tr><td>UNII</td><td>33CM23913M</td></tr><tr><td>CAS</td><td>298-46-4</td></tr></table></div>"
+    },
+    "identifier": [
+      {
+        "system": "http://www.who-umc.org/gsrs",
+        "value": "GSID77CC76XH15"
+      }
+    ],
+    "status": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/publication-status",
+          "code": "draft"
+        }
+      ],
+      "text": "Draft"
+    },
+    "domain": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/medicinal-product-domain",
+          "code": "Human"
+        }
+      ],
+      "text": "Human use"
+    },
+    "code": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "UNII",
+              "code": "33CM23913M"
+            }
+          ]
+        }
+      },
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "CAS",
+              "code": "298-46-4"
+            }
+          ]
+        }
+      }
+    ],
+    "name": [
+      {
+        "name": "Carbamazepine",
+        "status": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/publication-status",
+              "code": "active"
+            }
+          ],
+          "text": "Active"
+        },
+        "preferred": true,
+        "language": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/languages",
+                "code": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
