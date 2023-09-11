@@ -8,7 +8,7 @@ Description: """This profile specified how the Ingredient is returned (as contai
 
 * status ^short =	"draft|active|retired|unknown"
 
-* for only Reference( AdministrableProductDefinitionWhoPhP )
+* for only Reference( AdministrableProductDefinitionWhoPhP ) //only #?
 
 * role from VsIngredientRole (example)
 
@@ -16,9 +16,9 @@ Description: """This profile specified how the Ingredient is returned (as contai
 
 // * manufacturer.manufacturer only Reference(OrganizationWhoPhP)
 
-* substance
+* substance 1..
   * code from VsSubstance (example)
-  * strength 
+  * strength 1..
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."
   * strength.textPresentation ^short = "Text of either the whole presentation strength or a part of it"
   * strength.textConcentration ^short = "Text of either the whole concentration strength or a part of it"

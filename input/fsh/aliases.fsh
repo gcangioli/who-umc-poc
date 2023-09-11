@@ -1,5 +1,13 @@
 //============== ALIAS ===============
-
+Alias: $medicinal-product-type = http://hl7.org/fhir/medicinal-product-type
+Alias: $medicinal-product-domain = http://hl7.org/fhir/medicinal-product-domain
+Alias: $publication-status = http://hl7.org/fhir/publication-status
+Alias: $medicinal-product-contact-type = http://hl7.org/fhir/medicinal-product-contact-type
+Alias: $languages = http://hl7.org/fhir/ValueSet/languages
+Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
+Alias: $gsrs = http://www.who-umc.org/gsrs
+Alias: $php-level = http://www.who-umc.org/phpid/CodeSystem/php-level
+Alias: $standardterms = https://standardterms.edqm.eu
 
 // ====== extensions ====
 

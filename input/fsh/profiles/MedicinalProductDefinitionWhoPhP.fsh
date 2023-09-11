@@ -37,7 +37,7 @@ Description: """This profile specified how the MedicinalProductDefinition is ret
 * classification from VsAtcClassification (example)
   * ^short = "Allows the product to be classified by various systems (e.g. ATC)"
 
-* marketingStatus 0..
+* marketingStatus 0.. //not used now?should it be mandatory??
   * country  from VsCountry (preferred)
   * dateRange ^short = "The date when the Medicinal Product is placed on the market by the Marketing Authorization Holder"
   * status ^short = "Status of the marketing of the medicinal product."
@@ -49,12 +49,13 @@ Description: """This profile specified how the MedicinalProductDefinition is ret
   * contact ^short = "A specific contact, person (in a role), or an organization for this product"
 
 * name 1..
+  * productName 1..1
   * productName ^short = "The full product name."
   * type ^short = "Type of product name, such as rINN, Proprietary, Non-Proprietary"
   * part 0..*
     * part ^short = "A fragment of a product name."
     * type ^short = "Type for this part of the name (e.g. strength part)"
-  * usage 0..* 
+  * usage 1..* 
     * country ^short = "Country where this name applies"
     * jurisdiction ^short = "Jurisdiction where this name applies"
     * language ^short = "Language for this name"

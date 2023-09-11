@@ -15,7 +15,8 @@ Description: """This profile specified how the AdministrableProductDefinition is
   * ^short = "PhPID"
   * ^definition =  "This is always values with the PhPID"
 * identifier 1..1
-  * type 1..1 // add binding
+  * type 1..1 
+  * type  from VsPhIdentifierType (required) //create code?
   * system 1..1
   * value 1..1
 
