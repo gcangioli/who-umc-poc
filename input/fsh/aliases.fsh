@@ -1,5 +1,9 @@
 //============== ALIAS ===============
 
+
+// ====== extensions ====
+
+Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 // =========== Systems =======
 // HL7 systems
 Alias: $administrable-dose-form = http://hl7.org/fhir/administrable-dose-form
@@ -17,6 +21,7 @@ Alias: $medicationknowledge-characteristic =
 http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic
 Alias: $roleclass = http://terminology.hl7.org/CodeSystem/v3-RoleClass
 Alias: $publication-status = http://hl7.org/fhir/publication-status
+Alias: $data-absent-reason-CS = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 // External systems
 Alias: $meddra = http://terminology.hl7.org/CodeSystem/mdr

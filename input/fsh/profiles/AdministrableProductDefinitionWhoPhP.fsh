@@ -5,6 +5,12 @@ Title: "AdministrableProductDefinition (WHO PhP)"
 Description: """This profile specified how the AdministrableProductDefinition is returned (as contained resource) by the WHO-UMC PhP HL7 FHIR Service"""
 
 * insert SetFmmandStatusRule ( 0, draft )
+* extension contains ParentPhp named parentPhp 0..
+* extension[parentPhp] ^short = "URL to be CHANGED"
+
+* contained 1..
+* contained only IngredientWhoPhP
+
 * id 1..
   * ^short = "PhPID"
   * ^definition =  "This is always values with the PhPID"
@@ -13,14 +19,13 @@ Description: """This profile specified how the AdministrableProductDefinition is
   * system 1..1
   * value 1..1
 
-
-// ADD EXTENSIONS
-// ADD CONTAINED
-
 * status 1..1 
   * ^short = "draft | active | retired |unknown"
 
 * formOf 1.. 
+  * extension contains $data-absent-reason named data-absent-reason
+  * extension[data-absent-reason].valueCode = #unsupported
+
 // ADD DATA-ABSENT-REASON EXTENSION
 //only Reference(MedicinalProductDefinitionWhoPhP)
 
