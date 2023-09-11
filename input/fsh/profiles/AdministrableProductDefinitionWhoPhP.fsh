@@ -22,8 +22,8 @@ Description: """This profile specified how the AdministrableProductDefinition is
 * status 1..1 
   * ^short = "draft | active | retired |unknown"
 
-* formOf 1.. 
-  * extension contains $data-absent-reason named data-absent-reason
+* formOf 1..
+  * extension contains $data-absent-reason named data-absent-reason 0..
   * extension[data-absent-reason].valueCode = #unsupported
 
 // ADD DATA-ABSENT-REASON EXTENSION
