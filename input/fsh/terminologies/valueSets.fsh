@@ -83,11 +83,20 @@ Description: "World Health Organization Anatomical Therapeutic Chemical (ATC) cl
 * ^copyright = "This artifact includes content from Anatomical Therapeutic Chemical (ATC) classification system. ATC codes are copyright World Health Organization (WHO) Collaborating Centre for Drug Statistics Methodology. Terms & Conditions in https://www.whocc.no/use_of_atc_ddd/"
 
 
-
 //=========================
-ValueSet: VsPhIdentifierType
-Id: identifiertype
+ValueSet: VsPhpIdLevels
+Id: phpid-type
 Title: "Identifier Type Value Set"
 Description: "Identifier Type Value Set"
 * ^experimental = false
-* codes from system $example-cs
+* codes from system PhpIdLevels
+
+// 
+//=========================
+ValueSet: VsMpIdSystem
+Id: mpid-system
+Title: "MPID system"
+Description: "Medicinal  Product identification systems"
+* ^experimental = false
+
+* $uri#http://hl7.org/fhir/sid/ndc

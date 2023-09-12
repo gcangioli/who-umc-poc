@@ -7,16 +7,14 @@ Description: """This profile specified how the AdministrableProductDefinition is
 * insert SetFmmandStatusRule ( 0, draft )
 * extension contains ParentPhp named parentPhp 0..
 * extension[parentPhp] ^short = "URL to be CHANGED"
-
 * contained 1..
 * contained only IngredientWhoPhP
-
 * id 1..
   * ^short = "PhPID"
   * ^definition =  "This is always values with the PhPID"
 * identifier 1..1
   * type 1..1 
-  * type  from VsPhIdentifierType (required) //create code?
+  * type  from VsPhpIdLevels (required)
   * system 1..1
   * value 1..1
 
@@ -27,16 +25,19 @@ Description: """This profile specified how the AdministrableProductDefinition is
   * extension contains $data-absent-reason named data-absent-reason 0..
   * extension[data-absent-reason].valueCode = #unsupported
 
-// ADD DATA-ABSENT-REASON EXTENSION
 //only Reference(MedicinalProductDefinitionWhoPhP)
 
 * administrableDoseForm from VsAdministrableDoseForm (example)
 
-* unitOfPresentation from VsUnitofPresentation (example)
+// * unitOfPresentation from VsUnitofPresentation (example)
 
 // * producedFrom only Reference(ManufacturedItemDefinitionWhoPhP)
 
 * routeOfAdministration 
   * code from VsRouteOfAdministration (example)
 
-// * insert PropertyRulesSet
+* insert NotUsed(unitOfPresentation)
+* insert NotUsed(producedFrom)
+* insert NotUsed(device)
+* insert NotUsed(description)
+* insert NotUsed(property)

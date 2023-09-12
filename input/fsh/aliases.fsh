@@ -6,7 +6,7 @@ Alias: $medicinal-product-contact-type = http://hl7.org/fhir/medicinal-product-c
 Alias: $languages = http://hl7.org/fhir/ValueSet/languages
 Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
 Alias: $gsrs = http://www.who-umc.org/gsrs
-Alias: $php-level = http://www.who-umc.org/phpid/CodeSystem/php-level
+// Alias: $php-level = http://www.who-umc.org/phpid/CodeSystem/php-level
 Alias: $standardterms = https://standardterms.edqm.eu
 
 // ====== extensions ====

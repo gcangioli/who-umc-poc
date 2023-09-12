@@ -6,8 +6,9 @@ Description: "This extension applies to the ADP resource and is used to refer th
 * ^context[+].type = #element
 * ^context[=].expression = "AdministrableProductDefinition"
 
-// THE URL SHALL  BE CHANGED !!!
-* ^url = "https://umc-ext-dev-phponfhirdemo-systemtest-rg01-webapp.azurewebsites.net/StructureDefinition/ParentPhPId"
+// CHECK THE URL !!!
+* ^url = "http://www.who-umc.org/phpid/StructureDefinition/parent-phpid"
 * value[x] only Reference (AdministrableProductDefinitionWhoPhP)
 * valueReference.identifier 1..
   * system = "http://www.who-umc.org/phpid"
+  * system 1..
