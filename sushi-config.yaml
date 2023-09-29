@@ -47,10 +47,14 @@ FSHOnly: false
 pages:
   index.md:
     title: Home Page   
- # profiles.md:
-  #  title: Profiles
- # terminologies.md:
-  #  title: Terminology
+  substanceRequest.html:
+    title: Substance Request   
+  profiles.md:
+    title: Profiles
+  terminologies.md:
+    title: Terminologies
+  background.html:
+    title: Backgroud
   downloads.html:
     title: Useful Downloads
   changes.html:
@@ -60,9 +64,10 @@ pages:
 menu:
   IG Home: index.html
   Table of Contents: toc.html
- # Specifications:
-  #  Profiles: profiles.html
-   # Terminology: terminologies.html
+  Specifications:
+    Profiles: profiles.html
+    Terminology: terminologies.html
+    Substance request: substanceRequest.html
   Artifact Index: artifacts.html			
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html

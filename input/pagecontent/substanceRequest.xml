@@ -1,0 +1,10 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <h3>Substance Request</h3>
+  <p>Here it is described how the WHO-UMC IDMP API is used to request new SubstanceDefinitions in an asynchronous way. The reason we need an asynchronous model is that generating the Definitions might take long time since it normaly will require human interaction.</p>
+  <p>A GSID is generated and a new SubstanceDefinition resource is created based on the input in form of a SubstanceDefinition Draft 'template'    
+  </p>
+  <h3>Workflow</h3>
+	<p>
+		<img height="600" src="images/SubstanceRequestWF.png" alt="A sample image"/>
+	</p>
+</div>

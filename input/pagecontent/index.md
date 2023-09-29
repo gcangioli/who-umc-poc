@@ -27,9 +27,14 @@ Document the WHO-UMC PhP on Fhir demo API.
 </thead>
 <tbody>
 <tr class="odd">
-<td>xxx</td>
-<td>xxx</td>
-<td>xxx</td>
-<td>xxx</td>
+<td>Author</td>
+<td>Magnus Wallberg</td>
+<td>Uppsala Monitoring Centre</td>
+<td>magnus.wallberg@who-umc.org</td>
+</tr><tr class="even">
+<td>Author</td>
+<td>Giorgio Cangioli</td>
+<td></td>
+<td></td>
 </tr></tbody>
 </table>

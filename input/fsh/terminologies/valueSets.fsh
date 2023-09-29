@@ -61,7 +61,7 @@ Id: substance
 Title: "Substances"
 Description: "Substances"
 * ^experimental = false
-* include codes from system $ginas
+* include codes from system $gsrs
 
 
  //==========================
