@@ -47,7 +47,7 @@ FSHOnly: false
 pages:
   index.md:
     title: Home Page   
-  substanceRequest.html:
+  substanceRequest.md:
     title: Substance Request   
   profiles.md:
     title: Profiles
