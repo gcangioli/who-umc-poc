@@ -1,5 +1,5 @@
 Extension: ParentPhp
-Id:   parent-php
+Id:   parent-phpid
 Title: "Parent PhP"
 Description: "This extension applies to the ADP resource and is used to refer the parent ADPs representing the upper level PhP."
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)

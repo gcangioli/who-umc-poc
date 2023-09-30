@@ -34,6 +34,8 @@ fhirVersion: 5.0.0
 parameters:
   # show-inherited-invariants: false
   produce-jekyll-data: true
+  special-url:
+  - http://www.who-umc.org/phpid/StructureDefinition/parent-phpid
 
 copyrightYear: 2023+
 releaseLabel: CI Build
@@ -67,3 +69,30 @@ menu:
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html
     Downloads: downloads.html
+
+
+# The resources property corresponds to IG.definition.resource.
+# SUSHI can auto-generate all of the resource entries based on
+# the FSH definitions and/or information in any user-provided
+# JSON or XML resource files. If the generated entries are not
+# sufficient or complete, however, the author can add entries
+# here. If the reference matches a generated entry, it will
+# replace the generated entry. If it doesn't match any generated
+# entries, it will be added to the generated entries. The format
+# follows IG.definition.resource with the following differences:
+#   * use IG.definition.resource.reference.reference as the YAML key.
+#   * if the key is an id or name, SUSHI will replace it with the
+#     correct URL when generating the IG JSON.
+#   * specify "omit" to omit a FSH-generated resource from the
+#     resource list.
+#   * if the exampleCanonical is an id or name, SUSHI will replace
+#     it with the correct canonical when generating the IG JSON.
+#   * groupingId can be used, but top-level groups syntax may be a
+#     better option (see below).
+# The following are simple examples to demonstrate what this might
+# look like:
+
+resources:
+  AdministrableProductDefinition/F92168108C432D63DACDD70444176BB3:
+    name: AdministrableProductDefinition
+    description: Actual example of AdministrableProductDefinition returned by the server

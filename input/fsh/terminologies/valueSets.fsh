@@ -98,5 +98,4 @@ Id: mpid-system
 Title: "MPID system"
 Description: "Medicinal  Product identification systems"
 * ^experimental = false
-
 * $uri#http://hl7.org/fhir/sid/ndc

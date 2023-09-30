@@ -42,6 +42,9 @@ Alias: $edqm = http://standardterms.edqm.eu
 Alias: $sct = http://snomed.info/sct
 Alias: $atc = http://www.whocc.no/atc
 Alias: $ginas = http://fdasis.nlm.nih.gov
+Alias: $unii = http://fdasis.nlm.nih.gov // To be checked
+Alias: $eusrs = http://example.org/eu-srs // TO BE CHANGED
+Alias: $cas = http://example.org/cas // TO BE CHANGED
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $phpid = https://www.who-umc.org/phpid
 
@@ -56,6 +59,8 @@ Alias: $example-prod = http://example.org/sid/product
 
 Alias: $VS-medicinal-product-domain =
 	http://hl7.org/fhir/ValueSet/medicinal-product-domain
+
+Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages
 
 // SPOR Code systems (lists)
 	
