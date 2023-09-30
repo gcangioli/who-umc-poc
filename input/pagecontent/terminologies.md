@@ -1,6 +1,6 @@
-### GATEKEEPER Terminologies
+### WHO-UMC IDMP Terminologies
 
-This page lists all the terminology assets that have been specificed for the purpose of the GATEKEEPER project
+This page lists all the terminology assets that have been specificed for the purpose of the WHO-UMC IDMP project
 
 ### Code Systems
 
