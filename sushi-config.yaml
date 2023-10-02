@@ -50,7 +50,9 @@ pages:
   index.md:
     title: Home Page   
   substanceRequest.md:
-    title: Substance Request   
+    title: Substance (GSID) Request   
+  phpIdRequest.md:
+    title: PhPID Request   
   profiles.md:
     title: Profiles
   terminologies.md:
@@ -70,6 +72,7 @@ menu:
     Profiles: profiles.html
     Terminology: terminologies.html
     Substance request: substanceRequest.html
+    PhpID request: phpIdRequest.html
   Artifact Index: artifacts.html			
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html
