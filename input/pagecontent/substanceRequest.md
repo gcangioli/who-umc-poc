@@ -17,4 +17,4 @@ Upon a successful request, a GSID is generated and a new SubstanceDefinition res
 5. When finished the GET call will display status 'completed' and the body of the get will contain the Task with a reference to the generated SubstanceDefinition resource (including a GSID) in the output section.
 6. The generated SubstanceDefinition will be available as a resolvable url.
 
-<img height="300" src="SubstanceRequestWF.png" alt="A sample image"/>
+<img height="300" src="SubstanceRequestWF.png" alt="Substance request workflow"/>

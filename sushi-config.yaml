@@ -57,7 +57,7 @@ pages:
     title: Profiles
   terminologies.md:
     title: Terminologies
-  background.html:
+  background.md:
     title: Backgroud
   downloads.html:
     title: Useful Downloads
@@ -67,6 +67,7 @@ pages:
 		
 menu:
   IG Home: index.html
+  Background: background.html
   Table of Contents: toc.html
   Specifications:
     Profiles: profiles.html
