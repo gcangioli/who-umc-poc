@@ -57,5 +57,10 @@ This implementation guide describes how the global PhPIDs and GSIDs are delivere
 <td>Giorgio Cangioli</td>
 <td></td>
 <td></td>
+</tr><tr class="odd">
+<td>Author</td>
+<td>Åsa Pärnaste</td>
+<td>Uppsala Monitoring Centre</td>
+<td>asa.parnaste@who-umc.org</td>
 </tr></tbody>
 </table>
