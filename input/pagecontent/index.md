@@ -13,7 +13,7 @@ Document the WHO-UMC PhP on Fhir demo API.
 
 This implementation guide describes how the global PhPIDs and GSIDs are delivered through FHIR and how new PhPIDs and GSIDs can be requested using asynchronous FHIR requests.
 
-<img src="Overview.png" alt="An overview of PhPID and GSID"/>
+<img height="400" src="Overview.png" alt="An overview of PhPID and GSID"/>
 
 ### Dependencies
 
