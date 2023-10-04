@@ -14,7 +14,7 @@ Short summary of IDMP...
 
 The focus on this Implementation Guide is on the PhPID and GSID parts of the IDMP standard...
 
-<img height="400" src="Overview.png" alt="An overview of PhPID and GSID"/>
+<img src="Overview.png" alt="An overview of PhPID and GSID"/>
 
 
 
