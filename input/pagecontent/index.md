@@ -7,7 +7,7 @@
 
 ### Scope
 
-Document the WHO-UMC PhP on Fhir demo API.
+Document the WHO-UMC IDMP FHIR server.
 
 ### Introduction
 
