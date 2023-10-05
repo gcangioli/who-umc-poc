@@ -1,16 +1,16 @@
 Profile: SubstanceDefinitionRequest
 Parent: SubstanceDefinition
 Id: SubstanceDefinition-req
-Title: "SubstanceDefinition (example fo adoption of rules set)"
-Description: """This profile specified how the SubstanceDefinition is returned (as contained resource) by the WHO-UMC IDMP FHIR Service"""
+Title: "SubstanceDefinition for request (example fo adoption of rules set)"
+Description: """This profile specified how the SubstanceDefinition is used in request (for a new GSID) (as contained resource) by the WHO-UMC IDMP FHIR Service"""
 * insert SubstanceDefinitionCommon
 * identifier 0..0
 
 Profile: SubstanceDefinitionPublished
 Parent: SubstanceDefinition
 Id: SubstanceDefinition-pub
-Title: "SubstanceDefinition (example fo adoption of rules set)"
-Description: """This profile specified how the SubstanceDefinition is returned (as contained resource) by the WHO-UMC IDMP FHIR Service"""
+Title: "SubstanceDefinition for publication (example fo adoption of rules set)"
+Description: """This profile specified how the SubstanceDefinition is published by the WHO-UMC IDMP FHIR Service"""
 * insert SubstanceDefinitionCommon
 * identifier 1..1
 
