@@ -2,7 +2,7 @@ Profile: TaskAssignGsidWhoPhP
 Parent: Task
 Id: Task-gsid-who-php
 Title: "Task GSID Assignment"
-Description: """This profile specified how to use the Task resource to request and track the assignemnt of the GSID by using the WHO-UMC PhP HL7 FHIR Service"""
+Description: """This profile specified how to use the Task resource to request and track the assignemnt of the GSID by using the WHO-UMC IDMP FHIR Service"""
 * insert SetFmmandStatusRule ( 0, draft )
 // * identifier ^short = "An identifier or code by which the ingredient can be referenced."
 
@@ -25,11 +25,11 @@ Description: """This profile specified how to use the Task resource to request a
 * input 
   * type = http://hl7.org/fhir/fhir-types#SubstanceDefinition // check if a fixed value is enough (there are several types of SDs)
   * value[x] only Reference
-  * valueReference only Reference (SubstanceDefinitionWhoPhP)
+  * valueReference only Reference (SubstanceDefinitionRequest)
 * output 
   * type = http://hl7.org/fhir/fhir-types#SubstanceDefinition // check if a fixed value is enough (there are several types of SDs)
   * value[x] only Reference
-  * valueReference only Reference (SubstanceDefinitionWhoPhP)
+  * valueReference only Reference (SubstanceDefinitionPublished)
 
 
 * insert NotUsed(encounter)
