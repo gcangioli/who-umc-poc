@@ -60,7 +60,7 @@
               "coding": [
                 {
                   "system": "https://umc-ext-dev-phponfhirdemo-systemtest-rg01-webapp.azurewebsites.net/CodeSystem/phplevel",
-                  "code": "3"
+                  "code": "PhPIDLevel3"
                 }
               ]
             },
@@ -78,7 +78,7 @@
               "coding": [
                 {
                   "system": "https://umc-ext-dev-phponfhirdemo-systemtest-rg01-webapp.azurewebsites.net/CodeSystem/phplevel",
-                  "code": "2"
+                  "code": "PhPIDLevel2"
                 }
               ]
             },
@@ -94,7 +94,7 @@
           "coding": [
             {
               "system": "https://umc-ext-dev-phponfhirdemo-systemtest-rg01-webapp.azurewebsites.net/CodeSystem/phplevel",
-              "code": "4"
+              "code": "PhPIDLevel4"
             }
           ]
         },
