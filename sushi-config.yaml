@@ -14,7 +14,7 @@ id: who-umc.fhir.poc-php
 canonical: http://who-umc.org/fhir/php
 version: 0.1.0
 name: WhoUmcPhPProofOfConcept
-title: PhP on FHIR demo API 
+title: PhP on Fhir demo API 
 status: active
 publisher:
   name: WHO UMC
