@@ -14,7 +14,7 @@ id: who-umc.fhir.poc-php
 canonical: http://who-umc.org/fhir/php
 version: 0.1.0
 name: WhoUmcPhPProofOfConcept
-title: PhP on Fhir demo API 
+title: PhP on FHIR demo API 
 status: active
 publisher:
   name: WHO UMC
@@ -58,7 +58,7 @@ pages:
   terminologies.md:
     title: Terminologies
   background.md:
-    title: Backgroud
+    title: Background
   downloads.html:
     title: Useful Downloads
   changes.html:
@@ -73,7 +73,7 @@ menu:
     Profiles: profiles.html
     Terminology: terminologies.html
     Substance request: substanceRequest.html
-    PhpID request: phpIdRequest.html
+    PhPID request: phpIdRequest.html
   Artifact Index: artifacts.html			
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html
