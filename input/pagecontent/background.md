@@ -12,9 +12,9 @@ IDMP – Identification of Medicinal Products – is a set of five standards dev
 
 ##### PhPID and GSID 
 
-The focus on this Implementation Guide is on two parts of the ISO IDMP standard, the Pharmaceutical Product Identifier and the Global Substance Identifier:
-- Pharmaceutical Product Identifier (PhPID) – ISO 11616 
-- Substance Identification (SubID) – ISO 11238 
+The focus on this Implementation Guide is on two parts of the ISO IDMP standard, the Pharmaceutical Product Identifier (PhPID) and the Global Substance Identifier (GSID):
+- Pharmaceutical Product Identification – ISO 11616 
+- Substance Identification – ISO 11238 
 
 <img src="Overview.png" alt="An overview of PhPID and GSID"/>
 
