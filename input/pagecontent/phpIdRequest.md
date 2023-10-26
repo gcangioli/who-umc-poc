@@ -1,6 +1,6 @@
 ### PhPID Request
     
-In this section it is described how the WHO-UMC IDMP API is used to request a new PhPID represented by a AdministrableProductDefinitionin an asynchronous way. 
+In this section it is described how the WHO-UMC IDMP API is used to request a new global PhPID represented by a AdministrableProductDefinition in an asynchronous way. 
 
 The reason for using an asynchronous request model is that the process for generating PhPIDs includes a manual data validation step which can not be  done instantly.
 
