@@ -3,8 +3,6 @@ RuleSet: NotUsed(path)
 * {path} ^short = "Not used in this profile"
 * {path} ^definition = "Not used in this profile"
 
-
-
 RuleSet: AdditionalBinding ( purpose, valueSetAlias, documentation, description)
 // RuleSet: additionalBinding ( #conformance, VsSubstance, The specific substance that interacts., The specific substance that interacts.)
 //* ^binding.extension[+].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"

@@ -1,8 +1,27 @@
+Profile: MedicinalProductDefinitionWhoPhPRequest
+Parent: MedicinalProductDefinition
+Id: MedicinalProductDefinition-who-php-req
+Title: "MedicinalProductDefinition for request of a PhPID"
+Description: """This profile specified how the MedicinalProductDefinition is used in request (for a new PhPID) (as contained resource) by the WHO-UMC IDMP FHIR Service"""
+* insert MedicinalProductDefinitionCommon
+* insert NotUsed(contained)
+* contained 1..
+* contained only IngredientWhoPhP
+* contact 1..1
+  * type ^short = "Allows the contact to be classified, for example QPPV, Pharmacovigilance Enquiry Information."
+  * contact ^short = "A specific contact, person (in a role), or an organization for this product"
+
 Profile: MedicinalProductDefinitionWhoPhP
 Parent: MedicinalProductDefinition
-Id: MedicinalProductDefinition-who-php
-Title: "MedicinalProductDefinition (WHO PhP)"
-Description: """This profile specified how the MedicinalProductDefinition is returned by the WHO-UMC PhP HL7 FHIR Service"""
+Id: MedicinalProductDefinition-who-php-pub
+Title: "MedicinalProductDefinition for publication (example fo adoption of rules set)"
+Description: """This profile specified how the MedicinalProductDefinition is published by the WHO-UMC IDMP FHIR Service representing the WHODrug dictionary"""
+* insert MedicinalProductDefinitionCommon
+* contact 0..*
+  * type ^short = "Allows the contact to be classified, for example QPPV, Pharmacovigilance Enquiry Information."
+  * contact ^short = "A specific contact, person (in a role), or an organization for this product"
+
+RuleSet: MedicinalProductDefinitionCommon
 * insert SetFmmandStatusRule ( 0, draft )
 * id 1..
 * identifier 1..
@@ -61,10 +80,6 @@ Description: """This profile specified how the MedicinalProductDefinition is ret
 // * packagedMedicinalProduct ^short = "Package type for the product." 
 
 * insert NotUsed(packagedMedicinalProduct)
-
-* contact 0..*
-  * type ^short = "Allows the contact to be classified, for example QPPV, Pharmacovigilance Enquiry Information."
-  * contact ^short = "A specific contact, person (in a role), or an organization for this product"
 
 * name 1..
   * productName 1..1

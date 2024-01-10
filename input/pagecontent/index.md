@@ -55,7 +55,7 @@ This implementation guide describes how the global PhPIDs and GSIDs are delivere
 <td>Author</td>
 <td>Giorgio Cangioli</td>
 <td></td>
-<td></td>
+<td>giorgio.cangioli@gmail.com</td>
 </tr><tr class="odd">
 <td>Author</td>
 <td>Åsa Pärnaste</td>

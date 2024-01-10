@@ -2,7 +2,7 @@ Profile: IngredientWhoPhP
 Parent: Ingredient
 Id: Ingredient-who-php
 Title: "Ingredient (WHO PhP)"
-Description: """This profile specified how the Ingredient is returned (as contained resource) by the WHO-UMC PhP HL7 FHIR Service"""
+Description: """This profile specified how the Ingredient is used in a PhPID request (as contained resource in a MedicinalProductDefinition) by the WHO-UMC PhP HL7 FHIR Service"""
 * insert SetFmmandStatusRule ( 0, draft )
 * id 1..
 // * identifier ^short = "An identifier or code by which the ingredient can be referenced."
@@ -22,7 +22,7 @@ Description: """This profile specified how the Ingredient is returned (as contai
 * substance 1..
   // * code from VsSubstance (example)
   * code.concept
-    * coding 1..1
+    * coding 0..1
       * system = "http://www.who-umc.org/gsrs"
       * system 1..
       * code 1..
