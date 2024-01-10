@@ -2,7 +2,7 @@
     "resourceType": "CapabilityStatement",
     "id": "PhPOnFHIR",
     "name": "PhPIdDemo",
-    "title": "Demo API to explore PhPId access and management on FHIR",
+    "title": "Demo API to explore PhPID access and management on FHIR",
     "status": "draft",
     "date": "2023-08-18",
     "publisher": "Uppsala Monitoring Centre",
@@ -22,7 +22,7 @@
             ]
         }
     ],
-    "description": "The Demp API will support only a limited set of resources and operations on those to fullfill specific use cases",
+    "description": "The Demo API will support only a limited set of resources and operations on those to fulfill specific use cases",
     "kind": "capability",
     "fhirVersion": "5.0.0",
     "format": [

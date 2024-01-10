@@ -11,7 +11,7 @@ Document the WHO-UMC IDMP FHIR server.
 
 ### Introduction
 
-This implementation guide describes how the global PhPIDs and GSIDs are delivered through FHIR and how new PhPIDs and GSIDs can be requested using asynchronous FHIR requests.
+This implementation guide describes how the global PhPIDs and GSIDs are delivered through FHIR and how new global PhPIDs and GSIDs can be requested using asynchronous FHIR requests.
 
 <img src="Overview.png" alt="An overview of PhPID and GSID"/>
 <br clear="all"/>
