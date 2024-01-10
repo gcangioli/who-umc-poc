@@ -44,9 +44,9 @@
           ]
         },
         "contact": {
-          "reference": "Organization/大原薬品工業株式会社",
-          "type": "Market Authorization Holder",
-          "display": "大原薬品工業株式会社"
+          "reference": "Organization/AcmeInc",
+          "type": "Organization",
+          "display": "Acme Inc"
         }
       }
     ],

@@ -16,6 +16,8 @@ This implementation guide describes how the global PhPIDs and GSIDs are delivere
 <img src="Overview.png" alt="An overview of PhPID and GSID"/>
 <br clear="all"/>
 
+The (preview) FHIR server with tutorials and examples can be reached at <a href="https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/">https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/</a>.
+
 ### Dependencies
 
 {% include dependency-table.xhtml %}
