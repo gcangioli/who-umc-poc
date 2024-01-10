@@ -4,7 +4,6 @@ Id: MedicinalProductDefinition-who-php-req
 Title: "MedicinalProductDefinition for request of a PhPID"
 Description: """This profile specified how the MedicinalProductDefinition is used in request (for a new PhPID) (as contained resource) by the WHO-UMC IDMP FHIR Service"""
 * insert MedicinalProductDefinitionCommon
-* insert NotUsed(contained)
 * contained 1..
 * contained only IngredientWhoPhP
 * contact 1..1
@@ -17,6 +16,7 @@ Id: MedicinalProductDefinition-who-php-pub
 Title: "MedicinalProductDefinition for publication (example fo adoption of rules set)"
 Description: """This profile specified how the MedicinalProductDefinition is published by the WHO-UMC IDMP FHIR Service representing the WHODrug dictionary"""
 * insert MedicinalProductDefinitionCommon
+* insert NotUsed(contained)
 * contact 0..*
   * type ^short = "Allows the contact to be classified, for example QPPV, Pharmacovigilance Enquiry Information."
   * contact ^short = "A specific contact, person (in a role), or an organization for this product"
