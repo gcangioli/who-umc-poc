@@ -63,9 +63,9 @@ ValueSet: VsEdqmPdfBasicDoseForm
 Id: edqmPdfBasicDoseForm
 Title: "EDQM PDF characteristics: Basic dose form"
 Description: "EDQM Pharmaceutical dose forms characteristics: Basic dose form"
-* ^experimental = true
-* $standardterms#0054 "Gum"
-// add more
+//* ^experimental = true
+//* $standardterms#0054 "Gum"
+* codes from valueset http://localhost:8085/who-umc/edqm/BDF
 
 //=========================
 ValueSet: VsEdqmPdfReleaseChar
@@ -83,7 +83,7 @@ Title: "EDQM PDF characteristics: Intended site"
 Description: "EDQM Pharmaceutical dose forms characteristics: Intended site"
 * ^experimental = true
 * $standardterms#0021 "Auricular"
-// add more
+//* codes from valueset http://localhost:8085/who-umc/edqm/ISI
 
 //=========================
 ValueSet: VsEdqmPdfTransformation
