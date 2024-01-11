@@ -6,3 +6,6 @@ template
 .DS_Store
 __pycache__/
 ~$*.xlsx
+/___attic
+/__sources
+.gitignore

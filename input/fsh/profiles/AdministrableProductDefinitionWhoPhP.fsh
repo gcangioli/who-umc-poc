@@ -40,4 +40,6 @@ Description: """This profile specified how the AdministrableProductDefinition is
 * insert NotUsed(producedFrom)
 * insert NotUsed(device)
 * insert NotUsed(description)
-* insert NotUsed(property)
+* property
+  * type from VsEdqmPdfCharacteristicType
+  * valueCodeableConcept from VsEdqmPdfCharacteristic (extensible)
