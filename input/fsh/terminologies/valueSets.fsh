@@ -29,10 +29,10 @@ Id: edqmPdfCharacteristic
 Title: "EDQM Pharmaceutical dose forms by characteristics"
 Description: "EDQM Pharmaceutical dose forms by characteristics"
 * ^experimental = true
-* codes from valueset VsEdqmPdfStateOfMatter
+//* codes from valueset VsEdqmPdfStateOfMatter
 * codes from valueset VsEdqmPdfBasicDoseForm
 * codes from valueset VsEdqmPdfIntendedSite
-* codes from valueset VsEdqmPdfTransformation
+//* codes from valueset VsEdqmPdfTransformation
 * codes from valueset VsEdqmPdfAdministrationMethod
 * codes from valueset VsEdqmPdfReleaseChar
 
@@ -42,20 +42,20 @@ Id: edqmPdfCharacteristicType
 Title: "EDQM Pharmaceutical dose forms by characteristics"
 Description: "EDQM Pharmaceutical dose forms by characteristics"
 * ^experimental = false
-* $standardterms#SOM "State of Matter"
+//* $standardterms#SOM "State of Matter"
 * $standardterms#BDF "Basic dose form"
 * $standardterms#RCA "Release characteristics"
 * $standardterms#ISI "Intended site"
-* $standardterms#TRA "Transformation"
+//* $standardterms#TRA "Transformation"
 * $standardterms#AME "Administration method"
 
 //=========================
-ValueSet: VsEdqmPdfStateOfMatter
-Id: edqmPdfStateOfMatter
-Title: "EDQM PDF characteristics: Release characteristics"
-Description: "EDQM Pharmaceutical dose forms characteristics: Release characteristics"
-* ^experimental = true
-* $standardterms#0100 "Gas"
+//ValueSet: VsEdqmPdfStateOfMatter
+//Id: edqmPdfStateOfMatter
+//Title: "EDQM PDF characteristics: Release characteristics"
+//Description: "EDQM Pharmaceutical dose forms characteristics: Release characteristics"
+//* ^experimental = true
+//* $standardterms#0100 "Gas"
 // add more
 
 //=========================
@@ -63,7 +63,7 @@ ValueSet: VsEdqmPdfBasicDoseForm
 Id: edqmPdfBasicDoseForm
 Title: "EDQM PDF characteristics: Basic dose form"
 Description: "EDQM Pharmaceutical dose forms characteristics: Basic dose form"
-//* ^experimental = true
+* ^experimental = true
 //* $standardterms#0054 "Gum"
 * codes from valueset https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/who-umc/edqm/BDF
 
@@ -76,22 +76,23 @@ Description: "EDQM Pharmaceutical dose forms characteristics: Release characteri
 * $standardterms#0047 "Conventional" 
 // add more
 
+
 //=========================
 ValueSet: VsEdqmPdfIntendedSite
 Id: edqmPdfIntendedSite
 Title: "EDQM PDF characteristics: Intended site"
 Description: "EDQM Pharmaceutical dose forms characteristics: Intended site"
 * ^experimental = true
-* $standardterms#0021 "Auricular"
-//* codes from valueset http://localhost:8085/who-umc/edqm/ISI
+//* $standardterms#0021 "Auricular"
+* codes from valueset https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/who-umc/edqm/ISI
 
 //=========================
-ValueSet: VsEdqmPdfTransformation
-Id: edqmPdfTransformation
-Title: "EDQM PDF characteristics: Transformation"
-Description: "EDQM Pharmaceutical dose forms characteristics: Transformation"
-* ^experimental = true
-* $standardterms#0043 "Unknown"
+//ValueSet: VsEdqmPdfTransformation
+//Id: edqmPdfTransformation
+//Title: "EDQM PDF characteristics: Transformation"
+//Description: "EDQM Pharmaceutical dose forms characteristics: Transformation"
+//* ^experimental = true
+//* $standardterms#0043 "Unknown"
 // add more
 
 //=========================
