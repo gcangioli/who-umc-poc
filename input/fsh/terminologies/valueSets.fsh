@@ -65,7 +65,7 @@ Title: "EDQM PDF characteristics: Basic dose form"
 Description: "EDQM Pharmaceutical dose forms characteristics: Basic dose form"
 //* ^experimental = true
 //* $standardterms#0054 "Gum"
-* codes from valueset http://localhost:8085/who-umc/edqm/BDF
+* codes from valueset https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/who-umc/edqm/BDF
 
 //=========================
 ValueSet: VsEdqmPdfReleaseChar
