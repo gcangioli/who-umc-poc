@@ -62,6 +62,12 @@ Alias: $VS-medicinal-product-domain =
 
 Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages
 
+
+Alias: $edqmPdfReleaseChar = http://who-umc.org/fhir/php/ValueSet/edqmPdfReleaseChar
+Alias: $edqmPdfBasicDoseForm = http://who-umc.org/fhir/php/ValueSet/edqmPdfBasicDoseForm
+Alias: $edqmPdfIntendedSite = http://who-umc.org/fhir/php/ValueSet/edqmPdfIntendedSite
+Alias: $edqmPdfAdministrationMethod = http://who-umc.org/fhir/php/ValueSet/edqmPdfAdministrationMethod
+
 // SPOR Code systems (lists)
 	
 //Alias: $spor-precautionsForStorage-cs  = https://spor.ema.europa.eu/lists/100000073344

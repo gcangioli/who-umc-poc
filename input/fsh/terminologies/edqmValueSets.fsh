@@ -9,21 +9,21 @@ Description: "EDQM Standard Terms"
 //=========================
 ValueSet: VsEdqmPdfCharacteristic
 Id: edqmPdfCharacteristic
-Title: "EDQM Pharmaceutical dose forms by characteristics"
+Title: "EDQM PDF by characteristics"
 Description: "EDQM Pharmaceutical dose forms by characteristics"
 * ^experimental = true
-//* codes from valueset VsEdqmPdfStateOfMatter
-* codes from valueset VsEdqmPdfBasicDoseForm
-* codes from valueset VsEdqmPdfIntendedSite
-//* codes from valueset VsEdqmPdfTransformation
-* codes from valueset VsEdqmPdfAdministrationMethod
-* codes from valueset VsEdqmPdfReleaseChar
+// * codes from valueset VsEdqmPdfStateOfMatter
+* codes from valueset $edqmPdfBasicDoseForm
+* codes from valueset $edqmPdfIntendedSite
+//* codes from valueset $edqmPdfTransformation
+* codes from valueset $edqmPdfAdministrationMethod
+* codes from valueset $edqmPdfReleaseChar
 
 //=========================
 ValueSet: VsEdqmPdfCharacteristicType
 Id: edqmPdfCharacteristicType
-Title: "EDQM Pharmaceutical dose forms by characteristics"
-Description: "EDQM Pharmaceutical dose forms by characteristics"
+Title: "Types of EDQM PDF by characteristics"
+Description: "Types of EDQM Pharmaceutical dose forms by characteristics"
 * ^experimental = false
 //* $standardterms#SOM "State of Matter"
 * $standardterms#BDF "Basic dose form"
@@ -41,7 +41,7 @@ Description: "EDQM Pharmaceutical dose forms by characteristics"
 //* $standardterms#0100 "Gas"
 // add more
 
-//=========================
+/* //=========================
 ValueSet: VsEdqmPdfBasicDoseForm
 Id: edqmPdfBasicDoseForm
 Title: "EDQM PDF characteristics: Basic dose form"
@@ -58,7 +58,7 @@ Description: "EDQM Pharmaceutical dose forms characteristics: Release characteri
 * ^experimental = true
 * $standardterms#0047 "Conventional" 
 // add more
-
+ */
 //=========================
 //ValueSet: VsEdqmPdfTransformation
 //Id: edqmPdfTransformation
@@ -68,11 +68,11 @@ Description: "EDQM Pharmaceutical dose forms characteristics: Release characteri
 //* $standardterms#0043 "Unknown"
 // add more
 
-//=========================
+/* //=========================
 ValueSet: VsEdqmPdfAdministrationMethod
 Id: edqmPdfAdministrationMethod
 Title: "EDQM PDF characteristics: Administration method"
 Description: "EDQM Pharmaceutical dose forms characteristics: Administration method"
 * ^experimental = true
 * $standardterms#0007 "Chewing"
-// add more
+// add more */
