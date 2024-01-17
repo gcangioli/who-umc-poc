@@ -53,6 +53,8 @@ pages:
     title: Substance (GSID) Request   
   phpIdRequest.md:
     title: PhPID Request   
+  versioning.md:
+    title: Versioning
   profiles.md:
     title: Profiles
   terminologies.md:

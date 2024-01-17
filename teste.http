@@ -1,0 +1,6 @@
+###
+
+POST https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/task
+Content-Type: application/json
+
+< input/examples/task-1.json

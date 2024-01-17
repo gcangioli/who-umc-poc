@@ -21,6 +21,7 @@ Description: """This profile specified how to use the Task resource to request a
   * ^short = "PhPID Generation"
 * authoredOn 1..
 * lastModified 1..
+* requester only Reference(AuthorizedOrg)
 * requester 1..
 * input 
   * type = http://hl7.org/fhir/fhir-types#MedicinalProductDefinition // check if a fixed value is enough (there are several types of SDs)
