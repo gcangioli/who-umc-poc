@@ -4,11 +4,12 @@ Id: MedicinalProductDefinition-who-php-req
 Title: "MedicinalProductDefinition for request of a PhPID"
 Description: """This profile specified how the MedicinalProductDefinition is used in request (for a new PhPID) (as contained resource) by the WHO-UMC IDMP FHIR Service"""
 * insert MedicinalProductDefinitionCommon
-* contained 0..0
+//* contained 0..0
 * contained only IngredientWhoPhP
 * contact 1..1
   * type ^short = "Allows the contact to be classified, for example QPPV, Pharmacovigilance Enquiry Information."
   * contact ^short = "A specific contact, person (in a role), or an organization for this product"
+* insert NotUsed(contained)
 
 Profile: MedicinalProductDefinitionWhoPhP
 Parent: MedicinalProductDefinition
