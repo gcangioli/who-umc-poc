@@ -10,7 +10,7 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
 * status 1..
 * status ^short =	"draft|active|retired|unknown"
 
-* for only Reference( AdministrableProductDefinitionWhoPhP ) //only #?
+* for only Reference( AdministrableProductDefinitionWhoPhP or MedicinalProductDefinitionWhoPhPRequest ) //only #?
 * role from VsIngredientRole (example)
 
 * insert NotUsed(allergenicIndicator)

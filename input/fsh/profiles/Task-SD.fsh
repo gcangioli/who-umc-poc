@@ -22,6 +22,7 @@ Description: """This profile specified how to use the Task resource to request a
 * authoredOn 1..
 * lastModified 1..
 * requester 1..
+* contained 1..1
 * input 
   * type = http://hl7.org/fhir/fhir-types#SubstanceDefinition // check if a fixed value is enough (there are several types of SDs)
   * value[x] only Reference

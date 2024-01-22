@@ -23,6 +23,7 @@ Description: """This profile specified how to use the Task resource to request a
 * lastModified 1..
 * requester only Reference(AuthorizedOrg)
 * requester 1..
+* contained 3..
 * input 
   * type = http://hl7.org/fhir/fhir-types#MedicinalProductDefinition // check if a fixed value is enough (there are several types of SDs)
   * value[x] only Reference
