@@ -18,8 +18,9 @@ Description: """This profile specified how the MedicinalProductDefinition is pub
 * contained 0..*
 * contained only IngredientWhoPhP
 * contact 0..*
-  * type ^short = "Allows the contact to be classified, for example QPPV, Pharmacovigilance Enquiry Information."
-  * contact ^short = "A specific contact, person (in a role), or an organization for this product"
+  * type ^short = "Allows the contact to be classified"
+  * contact ^short = "A specific contact organization for this product"
+  * contact only Organization
 
 RuleSet: MedicinalProductDefinitionCommon
 * insert SetFmmandStatusRule ( 0, draft )
