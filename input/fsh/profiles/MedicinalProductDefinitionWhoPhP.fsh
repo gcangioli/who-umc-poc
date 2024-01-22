@@ -20,8 +20,7 @@ Description: """This profile specified how the MedicinalProductDefinition is pub
 * contact 0..*
   * type ^short = "Allows the contact to be classified"
   * contact ^short = "A specific contact organization for this product"
-  * contact only Organization
-
+  
 RuleSet: MedicinalProductDefinitionCommon
 * insert SetFmmandStatusRule ( 0, draft )
 * id 1..
