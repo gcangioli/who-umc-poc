@@ -107,6 +107,6 @@ Description: "GSID request input type value set"
 ValueSet: VsMpIdSystem
 Id: mpid-system
 Title: "MPID system"
-Description: "Medicinal  Product identification systems"
+Description: "Medicinal Product identification systems"
 * ^experimental = false
 * $uri#http://hl7.org/fhir/sid/ndc

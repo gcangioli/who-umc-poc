@@ -29,7 +29,7 @@ Description: """This profile specified how to use the Task resource to request a
 * input ^slicing.rules = #open
 * input ^slicing.description = "Slice based on the input.type pattern"
 
-* input contains MP 1..1 MS and ORG 1..1 MS and ING 1..1 MS
+* input contains MP 1..1 MS and ORG 1..1 MS and ING 1.. MS
 * input[MP].type = TaskInputTypes#mpd-request-resource
 * input[MP].value[x] only Reference
 * input[MP].valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest)
