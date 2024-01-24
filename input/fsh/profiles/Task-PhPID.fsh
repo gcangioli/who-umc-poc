@@ -23,11 +23,31 @@ Description: """This profile specified how to use the Task resource to request a
 * requester only Reference(AuthorizedOrg)
 * requester 0..
 * contained 3..
-* input 
+//* input 3..3
+* input ^slicing.discriminator.type = #pattern
+* input ^slicing.discriminator.path = "type"
+* input ^slicing.rules = #open
+* input ^slicing.description = "Slice based on the input.type pattern"
+
+* input contains MP 1..1 MS and ORG 1..1 MS and ING 1..1 MS
+* input[MP].type = TaskInputTypes#mpd-request-resource
+* input[MP].value[x] only Reference
+* input[MP].valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest)
+
+* input[ORG].type = TaskInputTypes#organization-request-resource
+* input[ORG].value[x] only Reference
+* input[ORG].valueReference only Reference (Organization)
+
+* input[ING].type = TaskInputTypes#ingredient-request-resource
+* input[ING].value[x] only Reference
+* input[ING].valueReference only Reference (Ingredient)
+
+
+//* input 3..3
   //* type = http://hl7.org/fhir/fhir-types#MedicinalProductDefinition
-  * type from VsPhPIDTaskInputTypes (required)
-  * value[x] only Reference
-  * valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest or Ingredient or Organization)
+//  * type from VsPhPIDTaskInputTypes (required)
+//  * value[x] only Reference
+//  * valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest or Ingredient or Organization)
 * output 
   * type = http://hl7.org/fhir/fhir-types#AdministrableProductDefinition 
   * value[x] only Reference
