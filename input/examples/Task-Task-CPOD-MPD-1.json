@@ -90,7 +90,7 @@
       "code" : {
         "concept" : {
           "coding" : [{
-            "system" : "http://www.who-umc.org/gsid",
+            "system" : "http://www.who-umc.org/idmp/gsid",
             "code" : "GSID85RFP2XGF3X29",
             "display" : "OMEPRAZOLE"
           }],

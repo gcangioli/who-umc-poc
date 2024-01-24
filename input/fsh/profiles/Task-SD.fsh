@@ -1,6 +1,6 @@
 Profile: TaskAssignGsidWhoPhP
 Parent: Task
-Id: Task-gsid-who-php
+Id: Task-who-php-gsid
 Title: "Task GSID Assignment"
 Description: """This profile specified how to use the Task resource to request and track the assignemnt of the GSID by using the WHO-UMC IDMP FHIR Service"""
 * insert SetFmmandStatusRule ( 0, draft )
