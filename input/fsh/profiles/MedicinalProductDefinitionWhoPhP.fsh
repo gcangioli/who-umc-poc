@@ -8,7 +8,7 @@ Description: """This profile specified how the MedicinalProductDefinition is use
 * contact 1..1
   * type ^short = "Should be ProposedMAH"
   * contact ^short = "A specific contact, person (in a role), or an organization for this product"
-  * contact only Reference(MarketingAuthorizationHolder)
+  * contact only Reference(MarketingAuthorizationHolder-who-php)
   
 Profile: MedicinalProductDefinitionWhoPhP
 Parent: MedicinalProductDefinition
