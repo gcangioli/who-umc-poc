@@ -6,9 +6,10 @@ Description: """This profile specified how the MedicinalProductDefinition is use
 * insert MedicinalProductDefinitionCommon
 * insert NotUsed(contained)
 * contact 1..1
-  * type ^short = "Allows the contact to be classified, for example QPPV, Pharmacovigilance Enquiry Information."
+  * type ^short = "Should be ProposedMAH"
   * contact ^short = "A specific contact, person (in a role), or an organization for this product"
-
+  * contact only Reference(MarketingAuthorizationHolder)
+  
 Profile: MedicinalProductDefinitionWhoPhP
 Parent: MedicinalProductDefinition
 Id: MedicinalProductDefinition-who-php-pub

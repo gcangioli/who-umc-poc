@@ -27,7 +27,7 @@ Description: """This profile specified how to use the Task resource to request a
 * input 
   * type = http://hl7.org/fhir/fhir-types#MedicinalProductDefinition // check if a fixed value is enough (there are several types of SDs)
   * value[x] only Reference
-  * valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest)
+  * valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest or Ingredient or Organization)
 * output 
   * type = http://hl7.org/fhir/fhir-types#AdministrableProductDefinition // check if a fixed value is enough (there are several types of SDs)
   * value[x] only Reference
