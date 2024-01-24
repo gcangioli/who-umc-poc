@@ -5,7 +5,7 @@ Usage: #inline
 * for.reference = "#"
 * role = $ingredient-role#100000072072
 * role.text = "Active"
-* substance.code.concept = $gsrs#GSID77CC76XH15
+* substance.code.concept = $gsid#GSID77CC76XH15
 * substance.code.concept.text = "Carbamazepine"
 * substance.strength.presentationQuantity = 300 'mg' "mg"
 * substance.strength.textPresentation = "300 mg"

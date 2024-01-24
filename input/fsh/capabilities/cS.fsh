@@ -30,10 +30,10 @@ Usage: #definition
 * rest.resource[=].interaction.code = #read
 * rest.resource[=].searchParam[0].name = "_id"
 * rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "GSRS Id"
+* rest.resource[=].searchParam[=].documentation = "GSID"
 * rest.resource[=].searchParam[+].name = "identifier"
 * rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "GSRS Id"
+* rest.resource[=].searchParam[=].documentation = "GSID"
 * rest.resource[=].searchParam[+].name = "name"
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[=].documentation = "Name of substance (contains search)"
@@ -87,7 +87,7 @@ Usage: #definition
 * rest.resource[=].documentation = "Onle available within the scope of an AdministrableProductDefinition"
 * rest.resource[=].searchParam[0].name = "substance-code"
 * rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "Find by substance (gsrs) code"
+* rest.resource[=].searchParam[=].documentation = "Find by substance (GSID) code"
 * rest.resource[=].searchParam[+].name = "strength-presentation-quantity"
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[=].documentation = "Search parameter on the format '5.4|http://unitsofmeasure.org|mg'"

@@ -29,7 +29,7 @@
             "concept": {
               "coding": [
                 {
-                  "system": "http://www.who-umc.org/gsrs",
+                  "system": "http://www.who-umc.org/idmp/gsid",
                   "code": "GSID8Z9T5R9742"
                 }
               ],

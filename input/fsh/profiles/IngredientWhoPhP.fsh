@@ -23,7 +23,7 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
   // * code from VsSubstance (example)
   * code.concept
     * coding 0..1
-      * system = "http://www.who-umc.org/gsrs"
+      * system = $gsid
       * system 1..
       * code 1..
     * text 1..

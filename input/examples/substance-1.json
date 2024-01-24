@@ -7,7 +7,7 @@
     },
     "identifier": [
       {
-        "system": "http://www.who-umc.org/gsrs",
+        "system": "http://www.who-umc.org/idmp/gsid",
         "value": "GSID77CC76XH15"
       }
     ],

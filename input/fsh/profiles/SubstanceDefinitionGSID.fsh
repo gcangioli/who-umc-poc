@@ -20,7 +20,7 @@ RuleSet: SubstanceDefinitionCommon
 * insert SetFmmandStatusRule ( 0, draft )
 * id 1..
 * text 1.. 
-* identifier.system = "http://www.who-umc.org/gsrs"
+* identifier.system = $gsid
 * status 1..
 * status ^short =	"draft|active|retired|unknown"
 * domain 1..
