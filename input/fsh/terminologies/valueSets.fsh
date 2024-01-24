@@ -1,4 +1,3 @@
-
 //=========================
 ValueSet: VsDoseForm
 Id: doseForm
@@ -14,9 +13,6 @@ Title: "Administrable Pharmaceutical Dose Form"
 Description: "Administrable Pharmaceutical Dose Form"
 * ^experimental = false
 * codes from system $administrable-dose-form
-
-
-
 
 //=========================
 ValueSet: VsManufacturedDoseForm
@@ -66,7 +62,6 @@ Description: "Substances"
 * ^experimental = false
 * include codes from system $gsid
 
-
  //==========================
 ValueSet: VsIngredientRole
 Id: ingredientRole
@@ -74,7 +69,6 @@ Title: "Ingredient Role"
 Description: "Ingredient Role; e.g.,active, excipient"
 * ^experimental = false
 * codes from system $ingredient-role
-
 
 //==========================
 ValueSet: VsAtcClassification
@@ -85,7 +79,6 @@ Description: "World Health Organization Anatomical Therapeutic Chemical (ATC) cl
 * codes from system $atc 
 * ^copyright = "This artifact includes content from Anatomical Therapeutic Chemical (ATC) classification system. ATC codes are copyright World Health Organization (WHO) Collaborating Centre for Drug Statistics Methodology. Terms & Conditions in https://www.whocc.no/use_of_atc_ddd/"
 
-
 //=========================
 ValueSet: VsPhpIdLevels
 Id: phpid-type
@@ -94,7 +87,22 @@ Description: "Identifier Type Value Set"
 * ^experimental = false
 * codes from system PhpIdLevels
 
-// 
+//=========================
+ValueSet: VsPhPIDTaskInputTypes
+Id: phpid-task-input-type
+Title: "PhPID request input type value set"
+Description: "PhPID request input type value set"
+* ^experimental = false
+* codes from system TaskInputTypes
+
+//=========================
+ValueSet: VsGSIDTaskInputTypes
+Id: gsid-task-input-type
+Title: "GSID request input type value set"
+Description: "GSID request input type value set"
+* ^experimental = false
+* codes from system TaskInputTypes
+
 //=========================
 ValueSet: VsMpIdSystem
 Id: mpid-system

@@ -24,11 +24,12 @@ Description: """This profile specified how to use the Task resource to request a
 * requester 0..
 * contained 3..
 * input 
-  * type = http://hl7.org/fhir/fhir-types#MedicinalProductDefinition // check if a fixed value is enough (there are several types of SDs)
+  //* type = http://hl7.org/fhir/fhir-types#MedicinalProductDefinition
+  * type from VsPhPIDTaskInputTypes (required)
   * value[x] only Reference
   * valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest or Ingredient or Organization)
 * output 
-  * type = http://hl7.org/fhir/fhir-types#AdministrableProductDefinition // check if a fixed value is enough (there are several types of SDs)
+  * type = http://hl7.org/fhir/fhir-types#AdministrableProductDefinition 
   * value[x] only Reference
   * valueReference only Reference (AdministrableProductDefinitionWhoPhP)
 

@@ -24,7 +24,8 @@ Description: """This profile specified how to use the Task resource to request a
 * requester 1..
 * contained 1..1
 * input 
-  * type = http://hl7.org/fhir/fhir-types#SubstanceDefinition // check if a fixed value is enough (there are several types of SDs)
+  //* type = http://hl7.org/fhir/fhir-types#SubstanceDefinition // check if a fixed value is enough (there are several types of SDs)
+  * type from VsGSIDTaskInputTypes (required)
   * value[x] only Reference
   * valueReference only Reference (SubstanceDefinitionRequest)
 * output 
