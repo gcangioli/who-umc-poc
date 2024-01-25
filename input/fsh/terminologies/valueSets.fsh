@@ -93,7 +93,9 @@ Id: phpid-task-input-type
 Title: "PhPID request input type value set"
 Description: "PhPID request input type value set"
 * ^experimental = false
-* codes from system TaskInputTypes
+* TaskInputTypes#mpd-request-resource "Medicinal Product Definition"
+* TaskInputTypes#ingredient-request-resource "Ingredient"
+* TaskInputTypes#organization-request-resource "Organization"
 
 //=========================
 ValueSet: VsGSIDTaskInputTypes
