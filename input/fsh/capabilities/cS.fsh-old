@@ -21,6 +21,7 @@ Usage: #definition
 * format[+] = #json
 * implementationGuide = "https://build.fhir.org/ig/gcangioli/who-umc-poc/"
 * rest.mode = #server
+
 * rest.resource[0].type = #Task
 * rest.resource[=].interaction[0].code = #read
 * rest.resource[=].interaction[+].code = #create
@@ -40,6 +41,7 @@ Usage: #definition
 * rest.resource[=].searchParam[+].name = "code"
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[=].documentation = "Code from other code system"
+
 * rest.resource[+].type = #AdministrableProductDefinition
 * rest.resource[=].interaction.code = #read
 * rest.resource[=].searchParam[0].name = "_id"
@@ -61,10 +63,9 @@ Usage: #definition
 * rest.resource[=].searchParam[=].definition = "https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/SearchParameter/parentphp"
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[=].documentation = "Search PhPIDs based on 'parent' PhPIDs"
+
 * rest.resource[+].type = #MedicinalProductDefinition
 * rest.resource[=].interaction.code = #read
-* rest.resource[=].interaction[+].code = #create
-
 * rest.resource[=].searchParam[0].name = "_id"
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[=].documentation = "WHODrug product Id"
@@ -80,10 +81,9 @@ Usage: #definition
 * rest.resource[=].searchParam[+].name = "name-country"
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[=].documentation = "Country according to urn:iso:std:iso:3166"
-* rest.resource[+].type = #Ingredient
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].interaction[+].code = #read
 
+* rest.resource[+].type = #Ingredient
+//* rest.resource[=].interaction.code = #read
 * rest.resource[=].documentation = "Onle available within the scope of an AdministrableProductDefinition"
 * rest.resource[=].searchParam[0].name = "substance-code"
 * rest.resource[=].searchParam[=].type = #string
@@ -95,10 +95,10 @@ Usage: #definition
 * rest.resource[=].interaction.code = #read
 * rest.resource[+].type = #ImplementationGuide
 * rest.resource[=].interaction.code = #read
-* rest.resource[+].type = #Organization
-* rest.resource[=].interaction.code = #read
-* rest.resource[=].interaction[+].code = #create
 
+* rest.resource[+].type = #Organization
+//* rest.resource[=].interaction.code = #read
+* rest.resource[=].interaction[+].code = #create
 * rest.resource[=].searchParam[0].name = "_id"
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[=].documentation = ""

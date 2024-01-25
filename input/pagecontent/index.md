@@ -64,5 +64,10 @@ The (preview) FHIR server with tutorials and examples can be reached at <a href=
 <td>Åsa Pärnaste</td>
 <td>Uppsala Monitoring Centre</td>
 <td>asa.parnaste@who-umc.org</td>
+</tr><tr class="even">
+<td>Author</td>
+<td>João Almeida</td>
+<td></td>
+<td>joaofilipe90@gmail.com</td>
 </tr></tbody>
 </table>
