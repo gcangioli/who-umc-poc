@@ -65,12 +65,12 @@
               {
                 "name": "_id",
                 "type": "string",
-                "documentation": "GSRS Id"
+                "documentation": "GSID"
               },
               {
                 "name": "identifier",
                 "type": "string",
-                "documentation": "GSRS Id"
+                "documentation": "GSID"
               },
               {
                 "name": "name",
@@ -95,12 +95,12 @@
               {
                 "name": "_id",
                 "type": "string",
-                "documentation": "PhPId"
+                "documentation": "PhPID"
               },
               {
                 "name": "identifier",
                 "type": "string",
-                "documentation": "PhPId"
+                "documentation": "PhPID"
               },
               {
                 "name": "form-of",

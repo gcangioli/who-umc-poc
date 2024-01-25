@@ -101,7 +101,7 @@ Id: gsid-task-input-type
 Title: "GSID request input type value set"
 Description: "GSID request input type value set"
 * ^experimental = false
-* codes from system TaskInputTypes
+* TaskInputTypes#substance-request-resource "Substance"
 
 //=========================
 ValueSet: VsMpIdSystem
