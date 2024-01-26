@@ -1,6 +1,6 @@
 {
     "resourceType": "Task",
-    "id": "generated-by-server",
+    "id": "template-generated-by-server",
     "meta": {
       "profile": [
         "http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-phpid"
