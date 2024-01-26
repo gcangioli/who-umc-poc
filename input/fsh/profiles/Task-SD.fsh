@@ -17,7 +17,7 @@ Description: """This profile specified how to use the Task resource to request a
 * businessStatus ^short = "business-specific state" // check if useful
 * intent = http://hl7.org/fhir/request-intent#proposal // CHECK ISìF TI IS A FIXED VALUE OR A VALUE SET BINDING
 * priority ^short = "Task priority" // check if this is needed
-* code 1.. // ASSIGN A CODE
+* code 0.. // ASSIGN A CODE
   * ^short = "GSID Assignment"
 * authoredOn 1..
 * lastModified 1..

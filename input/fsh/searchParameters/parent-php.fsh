@@ -1,4 +1,4 @@
-Instance: parent-php
+/*Instance: parent-php
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "http://who-umc.org/fhir/php/SearchParameter/parent-php"
@@ -12,4 +12,4 @@ Usage: #definition
 * base = #AdministrableProductDefinition
 * type = #reference
 * expression = "AdministrableProductDefinition.extension('$parent-php-extension').value"
-* processingMode = #normal
+* processingMode = #normal*/

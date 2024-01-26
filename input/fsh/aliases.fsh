@@ -6,7 +6,8 @@ Alias: $medicinal-product-contact-type = http://hl7.org/fhir/medicinal-product-c
 Alias: $languages = http://hl7.org/fhir/ValueSet/languages
 Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
 Alias: $gsid = http://www.who-umc.org/idmp/gsid
-// Alias: $php-level = http://www.who-umc.org/phpid/CodeSystem/php-level
+Alias: $phpid = https://www.who-umc.org/idmp/phpid
+// Alias: $php-level = http://www.who-umc.org/idmp/CodeSystem/php-level
 Alias: $standardterms = https://standardterms.edqm.eu
 
 // ====== extensions ====
@@ -47,7 +48,6 @@ Alias: $unii = http://fdasis.nlm.nih.gov // To be checked
 Alias: $eusrs = http://example.org/eu-srs // TO BE CHANGED
 Alias: $cas = http://example.org/cas // TO BE CHANGED
 Alias: $ucum = http://unitsofmeasure.org
-Alias: $phpid = https://www.who-umc.org/phpid
 
 
 // Example systems
@@ -64,10 +64,10 @@ Alias: $VS-medicinal-product-domain =
 Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages
 
 
-Alias: $edqmPdfReleaseChar = http://who-umc.org/fhir/php/ValueSet/edqmPdfReleaseChar
-Alias: $edqmPdfBasicDoseForm = http://who-umc.org/fhir/php/ValueSet/edqmPdfBasicDoseForm
-Alias: $edqmPdfIntendedSite = http://who-umc.org/fhir/php/ValueSet/edqmPdfIntendedSite
-Alias: $edqmPdfAdministrationMethod = http://who-umc.org/fhir/php/ValueSet/edqmPdfAdministrationMethod
+Alias: $edqmPdfReleaseChar = http://who-umc.org/idmp/edqm/RCA
+Alias: $edqmPdfBasicDoseForm = http://who-umc.org/idmp/edqm/BDF
+Alias: $edqmPdfIntendedSite = http://who-umc.org/idmp/edqm/ISI
+Alias: $edqmPdfAdministrationMethod = http://who-umc.org/idmp/edqm/AME
 
 // SPOR Code systems (lists)
 	

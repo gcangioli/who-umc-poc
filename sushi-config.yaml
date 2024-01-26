@@ -50,9 +50,9 @@ pages:
   index.md:
     title: Home Page   
   substanceRequest.md:
-    title: Substance (GSID) Request   
+    title: GSID (Substance) Request   
   phpIdRequest.md:
-    title: PhPID Request   
+    title: PhPID (AdministrableProductDefinition) Request   
   versioning.md:
     title: Versioning
   profiles.md:
