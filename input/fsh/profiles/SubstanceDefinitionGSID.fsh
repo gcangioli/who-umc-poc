@@ -1,24 +1,33 @@
+//*******************************
+// Request model
+//*******************************
 Profile: SubstanceDefinitionRequest
 Parent: SubstanceDefinition
 Id: SubstanceDefinition-req
 Title: "SubstanceDefinition for request (example fo adoption of rules set)"
 Description: """This profile specified how the SubstanceDefinition is used in request (for a new GSID) (as contained resource) by the WHO-UMC IDMP FHIR Service"""
 * insert SubstanceDefinitionCommon
+* id 0..0
 * identifier 0..0
 
+//*******************************
+// Publish model
+//*******************************
 Profile: SubstanceDefinitionPublished
 Parent: SubstanceDefinition
 Id: SubstanceDefinition-pub
 Title: "SubstanceDefinition for publication (example fo adoption of rules set)"
 Description: """This profile specified how the SubstanceDefinition is published by the WHO-UMC IDMP FHIR Service"""
 * insert SubstanceDefinitionCommon
+* id 1..1
 * identifier 1..1
 
-
+//*******************************
+// Common
+//*******************************
 RuleSet: SubstanceDefinitionCommon
 
 * insert SetFmmandStatusRule ( 0, draft )
-* id 1..
 * text 1.. 
 * identifier.system = $gsid
 * status 1..
