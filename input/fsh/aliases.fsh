@@ -10,6 +10,7 @@ Alias: $gsid = http://www.who-umc.org/idmp/gsid
 Alias: $standardterms = https://standardterms.edqm.eu
 
 // ====== extensions ====
+Alias: $parent-php-extension = http://who-umc.org/fhir/php/SearchParameter/parent-php
 
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 // =========== Systems =======

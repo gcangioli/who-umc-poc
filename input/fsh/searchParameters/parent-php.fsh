@@ -11,5 +11,5 @@ Usage: #definition
 * code = #parent-php
 * base = #AdministrableProductDefinition
 * type = #reference
-* expression = "AdministrableProductDefinition.extension('http://www.who-umc.org/phpid/StructureDefinition/parent-phpid').value"
+* expression = "AdministrableProductDefinition.extension('$parent-php-extension').value"
 * processingMode = #normal

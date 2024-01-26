@@ -1,223 +1,223 @@
 {
-    "resourceType": "CapabilityStatement",
-    "id": "PhPOnFHIR",
-    "name": "PhPIdDemo",
-    "title": "Demo API to explore PhPId access and management on FHIR",
-    "status": "draft",
-    "date": "2024-01-08",
-    "publisher": "Uppsala Monitoring Centre",
-    "contact": [
-      {
-        "name": "Uppsala Monitoring Centre",
-        "telecom": [
+        "resourceType": "CapabilityStatement",
+        "id": "IDMPOnFHIR",
+        "name": "WHO-UMC IDMP Management and Publish API",
+        "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
+        "status": "draft",
+        "date": "2024-01-26",
+        "publisher": "Uppsala Monitoring Centre",
+        "contact": [
           {
-            "system": "url",
-            "value": "http://www.who-umc.org"
-          },
-          {
-            "system": "phone",
-            "value": "+4618656060",
-            "use": "work"
-          }
-        ]
-      }
-    ],
-    "description": "The Demp API will support only a limited set of resources and operations on those to fullfill specific use cases",
-    "kind": "capability",
-    "software": {
-      "name": "PhPIdDemo",
-      "version": "0.1"
-    },
-    "fhirVersion": "5.0.0",
-    "format": [
-      "xml",
-      "json"
-    ],
-    "implementationGuide": [
-      "https://build.fhir.org/ig/gcangioli/who-umc-poc/"
-    ],
-    "rest": [
-      {
-        "mode": "server",
-        "resource": [
-          {
-            "type": "Task",
-            "interaction": [
+            "name": "Uppsala Monitoring Centre",
+            "telecom": [
               {
-                "code": "read"
+                "system": "url",
+                "value": "http://www.who-umc.org"
               },
               {
-                "code": "create"
-              },
-              {
-                "code": "delete"
-              }
-            ]
-          },
-          {
-            "type": "SubstanceDefinition",
-            "interaction": [
-              {
-                "code": "read"
-              }
-            ],
-            "searchParam": [
-              {
-                "name": "_id",
-                "type": "string",
-                "documentation": "GSID"
-              },
-              {
-                "name": "identifier",
-                "type": "string",
-                "documentation": "GSID"
-              },
-              {
-                "name": "name",
-                "type": "string",
-                "documentation": "Name of substance (contains search)"
-              },
-              {
-                "name": "code",
-                "type": "string",
-                "documentation": "Code from other code system"
-              }
-            ]
-          },
-          {
-            "type": "AdministrableProductDefinition",
-            "interaction": [
-              {
-                "code": "read"
-              }
-            ],
-            "searchParam": [
-              {
-                "name": "_id",
-                "type": "string",
-                "documentation": "PhPID"
-              },
-              {
-                "name": "identifier",
-                "type": "string",
-                "documentation": "PhPID"
-              },
-              {
-                "name": "form-of",
-                "type": "string",
-                "documentation": "Find PhPIds for an internal product ID in the"
-              },
-              {
-                "name": "form-of:identifier",
-                "type": "string",
-                "documentation": "Find PhPIds for a MPID"
-              },
-              {
-                "name": "dose-form",
-                "type": "string",
-                "documentation": "Find PhPIds with a specific dose-form"
-              },
-              {
-                "name": "parent-php",
-                "definition": "http://localhost:8085/SearchParameter/parentphp",
-                "type": "string",
-                "documentation": "Search PhPIDs based on 'parent' PhPIDs"
-              }
-            ]
-          },
-          {
-            "type": "MedicinalProductDefinition",
-            "interaction": [
-              {
-                "code": "read"
-              }
-            ],
-            "searchParam": [
-              {
-                "name": "_id",
-                "type": "string",
-                "documentation": "WHODrug product Id"
-              },
-              {
-                "name": "identifier",
-                "type": "string",
-                "documentation": "MPID"
-              },
-              {
-                "name": "name",
-                "type": "string",
-                "documentation": "Product name (contains search)"
-              },
-              {
-                "name": "name-jurisdiction",
-                "type": "string",
-                "documentation": "Jurisdiction according to urn:iso:std:iso:3166"
-              },
-              {
-                "name": "name-country",
-                "type": "string",
-                "documentation": "Country according to urn:iso:std:iso:3166"
-              }
-            ]
-          },
-          {
-            "type": "Ingredient",
-            "documentation": "Onle available within the scope of an AdministrableProductDefinition",
-            "searchParam": [
-              {
-                "name": "substance-code",
-                "type": "string",
-                "documentation": "Find by substance (gsrs) code"
-              },
-              {
-                "name": "strength-presentation-quantity",
-                "type": "token",
-                "documentation": "Search parameter on the format '5.4|http://unitsofmeasure.org|mg'"
-              }
-            ]
-          },
-          {
-            "type": "CapabilityStatement",
-            "interaction": [
-              {
-                "code": "read"
-              }
-            ]
-          },
-          {
-            "type": "ImplementationGuide",
-            "interaction": [
-              {
-                "code": "read"
-              }
-            ]
-          },
-          {
-            "type": "Organization",
-            "interaction": [
-              {
-                "code": "read"
-              }
-            ],
-            "searchParam": [
-              {
-                "name": "_id",
-                "type": "string",
-                "documentation": ""
-              },
-              {
-                "name": "identifier",
-                "type": "string",
-                "documentation": ""
-              },
-              {
-                "name": "name",
-                "type": "string",
-                "documentation": "Name of organization (contains search)"
+                "system": "phone",
+                "value": "+4618656060",
+                "use": "work"
               }
             ]
           }
+        ],
+        "description": "The WHO-UMC API supports management and publishing of OhPIDs and GSIDs as part of the ISO IDMP standard",
+        "kind": "capability",
+        "software": {
+          "name": "WHO-UMC IDMP Management and Publish API",
+          "version": "0.2"
+        },
+        "fhirVersion": "5.0.0",
+        "format": [
+          "xml",
+          "json"
+        ],
+        "implementationGuide": [
+          "https://build.fhir.org/ig/gcangioli/who-umc-poc/"
+        ],
+        "rest": [
+          {
+            "mode": "server",
+            "resource": [
+              {
+                "type": "Task",
+                "interaction": [
+                  {
+                    "code": "read"
+                  },
+                  {
+                    "code": "create"
+                  },
+                  {
+                    "code": "delete"
+                  }
+                ]
+              },
+              {
+                "type": "SubstanceDefinition",
+                "interaction": [
+                  {
+                    "code": "read"
+                  }
+                ],
+                "searchParam": [
+                  {
+                    "name": "_id",
+                    "type": "string",
+                    "documentation": "GSID"
+                  },
+                  {
+                    "name": "identifier",
+                    "type": "string",
+                    "documentation": "GSID"
+                  },
+                  {
+                    "name": "name",
+                    "type": "string",
+                    "documentation": "Name of substance (contains search)"
+                  },
+                  {
+                    "name": "code",
+                    "type": "string",
+                    "documentation": "Code from other code system"
+                  }
+                ]
+              },
+              {
+                "type": "AdministrableProductDefinition",
+                "interaction": [
+                  {
+                    "code": "read"
+                  }
+                ],
+                "searchParam": [
+                  {
+                    "name": "_id",
+                    "type": "string",
+                    "documentation": "PhPID"
+                  },
+                  {
+                    "name": "identifier",
+                    "type": "string",
+                    "documentation": "PhPID"
+                  },
+                  {
+                    "name": "form-of",
+                    "type": "string",
+                    "documentation": "Find PhPIds for an internal product ID in the"
+                  },
+                  {
+                    "name": "form-of:identifier",
+                    "type": "string",
+                    "documentation": "Find PhPIds for a MPID"
+                  },
+                  {
+                    "name": "dose-form",
+                    "type": "string",
+                    "documentation": "Find PhPIds with a specific dose-form"
+                  },
+                  {
+                    "name": "parent-php",
+                    "definition": "http://localhost:8085/SearchParameter/parentphp",
+                    "type": "string",
+                    "documentation": "Search PhPIDs based on 'parent' PhPIDs"
+                  }
+                ]
+              },
+              {
+                "type": "MedicinalProductDefinition",
+                "interaction": [
+                  {
+                    "code": "read"
+                  }
+                ],
+                "searchParam": [
+                  {
+                    "name": "_id",
+                    "type": "string",
+                    "documentation": "WHODrug product Id"
+                  },
+                  {
+                    "name": "identifier",
+                    "type": "string",
+                    "documentation": "MPID"
+                  },
+                  {
+                    "name": "name",
+                    "type": "string",
+                    "documentation": "Product name (contains search)"
+                  },
+                  {
+                    "name": "name-jurisdiction",
+                    "type": "string",
+                    "documentation": "Jurisdiction according to urn:iso:std:iso:3166"
+                  },
+                  {
+                    "name": "name-country",
+                    "type": "string",
+                    "documentation": "Country according to urn:iso:std:iso:3166"
+                  }
+                ]
+              },
+              {
+                "type": "Ingredient",
+                "documentation": "Onle available within the scope of an AdministrableProductDefinition",
+                "searchParam": [
+                  {
+                    "name": "substance-code",
+                    "type": "string",
+                    "documentation": "Find by substance (gsrs) code"
+                  },
+                  {
+                    "name": "strength-presentation-quantity",
+                    "type": "token",
+                    "documentation": "Search parameter on the format '5.4|http://unitsofmeasure.org|mg'"
+                  }
+                ]
+              },
+              {
+                "type": "CapabilityStatement",
+                "interaction": [
+                  {
+                    "code": "read"
+                  }
+                ]
+              },
+              {
+                "type": "ImplementationGuide",
+                "interaction": [
+                  {
+                    "code": "read"
+                  }
+                ]
+              },
+              {
+                "type": "Organization",
+                "interaction": [
+                  {
+                    "code": "read"
+                  }
+                ],
+                "searchParam": [
+                  {
+                    "name": "_id",
+                    "type": "string",
+                    "documentation": ""
+                  },
+                  {
+                    "name": "identifier",
+                    "type": "string",
+                    "documentation": ""
+                  },
+                  {
+                    "name": "name",
+                    "type": "string",
+                    "documentation": "Name of organization (contains search)"
+                  }
+                ]
+              }
+            ]
+          }
         ]
       }
-    ]
-  }
