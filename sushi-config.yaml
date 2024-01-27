@@ -49,6 +49,8 @@ pages:
     title: PhPID (AdministrableProductDefinition) Request   
   versioning.md:
     title: Versioning
+  authentication.md:
+    title: Authentication
   profiles.md:
     title: Profiles
   terminologies.md:
@@ -65,6 +67,7 @@ menu:
   IG Home: index.html
   Background: background.html
   Table of Contents: toc.html
+  Authentication: authentication.html
   Specifications:
     Profiles: profiles.html
     Terminology: terminologies.html
@@ -73,6 +76,7 @@ menu:
   Artifact Index: artifacts.html			
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html
+    API With tutorial and examples: new-tab https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/
     Downloads: downloads.html
 
 
