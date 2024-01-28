@@ -41,11 +41,11 @@ RuleSet: TaskGenerateGSIDCommon
   * ^short = "GSID Assignment"
 * authoredOn 1..
 * lastModified 1..
-* requester 1..
+* requester only Reference(AuthorizedOrg)
+* requester 0..
 * contained 1..1
 * input 
-  //* type = http://hl7.org/fhir/fhir-types#SubstanceDefinition // check if a fixed value is enough (there are several types of SDs)
-  * type from VsGSIDTaskInputTypes (required)
+  * type = TaskInputTypes#substance-request-resource 
   * value[x] only Reference
   * valueReference only Reference (SubstanceDefinitionRequest)
 * output 
