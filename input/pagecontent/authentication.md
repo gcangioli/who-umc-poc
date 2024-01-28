@@ -15,8 +15,6 @@ TBD
 TBD
 
 ### Abbereviations
-| Abbreviation | Meaning |
-| --- | --- |
-| SD |  substanceDefinition |
-| APD |  AdministrableProductDefinition |
-| MPD |  MedicinalProductDefinition |
+- SD - substanceDefinition 
+- APD - AdministrableProductDefinition
+- MPD - MedicinalProductDefinition
