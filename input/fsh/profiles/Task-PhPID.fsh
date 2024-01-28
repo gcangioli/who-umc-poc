@@ -1,20 +1,41 @@
-Profile: TaskGeneratePhPIDWhoPhP
+//*******************************
+// New request
+//*******************************
+Profile: TaskGeneratePhPID
 Parent: Task
 Id: Task-who-php-phpid
-Title: "Task PhPID generation"
-Description: """This profile specified how to use the Task resource to request and track the generation of a PhPID by using the WHO-UMC IDMP FHIR Service"""
+Title: "Task PhPID request"
+Description: """This profile specified how to use the Task resource to request (via POST) the generation of a PhPID by using the WHO-UMC IDMP FHIR Service"""
+* id 0..0
+* status 1..1 
+  * ^short =	"Status of the task should always be 'requested' when a new request"
+* status = #requested  
+* insert TaskGeneratePhPIDCommon
+
+//*******************************
+// Existing request (status)
+//*******************************
+Profile: TaskGeneratePhPIDStatus
+Parent: Task
+Id: Task-who-php-phpid-status
+Title: "Task PhPID request status"
+Description: """This profile specified how to use the Task resource to request status of a previously sent request"""
+* id 1..1
+* status 1..1
+  * ^short =	"Status of the task"
+* insert TaskGeneratePhPIDCommon
+
+//*******************************
+// Common
+//*******************************
+RuleSet: TaskGeneratePhPIDCommon
 * insert SetFmmandStatusRule ( 0, draft )
-
-// ADD INVARIANTS FOR INPUT AND OUTPUT
-
 * identifier 0..
   * ^short = "Identifier assigned by the requestor to track the request."
 * instantiatesUri ^short = "Link to the definiton of the task"
 * basedOn // check if this should be sued for tracking the request or if we should say not used
-* status 1..
-  * ^short =	"Status of the task"
 * businessStatus ^short = "business-specific state" // check if useful
-* intent = http://hl7.org/fhir/request-intent#proposal // CHECK ISìF TI IS A FIXED VALUE OR A VALUE SET BINDING
+* intent = http://hl7.org/fhir/request-intent#proposal // CHECK IF IT IS A FIXED VALUE OR A VALUE SET BINDING
 * priority ^short = "Task priority" // check if this is needed
 * code 0.. // Assigne A CODE
   * ^short = "PhPID Assignment"

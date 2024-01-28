@@ -5,8 +5,8 @@ Title: "AdministrableProductDefinition (WHO PhP)"
 Description: """This profile specified how the AdministrableProductDefinition is returned (as contained resource) by the WHO-UMC PhP HL7 FHIR Service"""
 
 * insert SetFmmandStatusRule ( 0, draft )
-* extension contains ParentPhp named parentPhp 0..
-* extension[parentPhp] ^short = "URL to be CHANGED"
+* extension contains $parent-php-extension named parentPhp 0..
+//* extension[parentPhp] ^short = "URL to be CHANGED"
 * contained 1..
 * contained only IngredientWhoPhP
 * id 1..
