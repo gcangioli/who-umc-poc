@@ -68,7 +68,6 @@ RuleSet: TaskGeneratePhPIDCommon
   * value[x] only Reference
   * valueReference only Reference (AdministrableProductDefinitionWhoPhP)
 
-
 * insert NotUsed(encounter)
 * insert NotUsed(insurance)
 * insert NotUsed(restriction)
