@@ -4,7 +4,7 @@
 Profile: MedicinalProductDefinitionWhoPhPRequest
 Parent: MedicinalProductDefinition
 Id: MedicinalProductDefinition-who-php-req
-Title: "MedicinalProductDefinition for request of a PhPID"
+Title: "MedicinalProductDefinition for PhPID request"
 Description: """This profile specified how the MedicinalProductDefinition is used in request (for a new PhPID) (as contained resource) by the WHO-UMC IDMP FHIR Service"""
 * insert MedicinalProductDefinitionCommon
 * insert NotUsed(contained)
@@ -21,7 +21,7 @@ Description: """This profile specified how the MedicinalProductDefinition is use
 Profile: MedicinalProductDefinitionWhoPhP
 Parent: MedicinalProductDefinition
 Id: MedicinalProductDefinition-who-php-pub
-Title: "MedicinalProductDefinition for publication (example fo adoption of rules set)"
+Title: "MedicinalProductDefinition for publication"
 Description: """This profile specified how the MedicinalProductDefinition is published by the WHO-UMC IDMP FHIR Service representing the WHODrug dictionary"""
 * insert MedicinalProductDefinitionCommon
 * contained 0..*
