@@ -13,7 +13,7 @@ Description: """This profile specified how to use the Task resource to request (
 * insert TaskGeneratePhPIDCommon
 
 //*******************************
-// Existing request (status)
+// Response from status request
 //*******************************
 Profile: TaskGeneratePhPIDStatus
 Parent: Task
@@ -35,7 +35,8 @@ RuleSet: TaskGeneratePhPIDCommon
 * instantiatesUri ^short = "Link to the definiton of the task"
 * basedOn // check if this should be sued for tracking the request or if we should say not used
 * businessStatus ^short = "business-specific state" // check if useful
-* intent = http://hl7.org/fhir/request-intent#proposal // CHECK IF IT IS A FIXED VALUE OR A VALUE SET BINDING
+// CHECK IF IT IS A FIXED VALUE OR A VALUE SET BINDING
+* intent = http://hl7.org/fhir/request-intent#proposal 
 * priority ^short = "Task priority" // check if this is needed
 * code 0.. // Assigne A CODE
   * ^short = "PhPID Assignment"
@@ -62,12 +63,6 @@ RuleSet: TaskGeneratePhPIDCommon
 * input[ING].value[x] only Reference
 * input[ING].valueReference only Reference (Ingredient)
 
-
-//* input 3..3
-  //* type = http://hl7.org/fhir/fhir-types#MedicinalProductDefinition
-//  * type from VsPhPIDTaskInputTypes (required)
-//  * value[x] only Reference
-//  * valueReference only Reference (MedicinalProductDefinitionWhoPhPRequest or Ingredient or Organization)
 * output 
   * type = http://hl7.org/fhir/fhir-types#AdministrableProductDefinition 
   * value[x] only Reference
