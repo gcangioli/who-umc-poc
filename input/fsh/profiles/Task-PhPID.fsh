@@ -56,11 +56,11 @@ RuleSet: TaskGeneratePhPIDCommon
 
 * input[ORG].type = TaskInputTypes#organization-request-resource
 * input[ORG].value[x] only Reference
-* input[ORG].valueReference only Reference (Organization)
+* input[ORG].valueReference only Reference (MarketingAuthorizationHolderWhoPhpRequest)
 
 * input[ING].type = TaskInputTypes#ingredient-request-resource
 * input[ING].value[x] only Reference
-* input[ING].valueReference only Reference (Ingredient)
+* input[ING].valueReference only Reference (IngredientWhoPhP)
 
 * output 
   * type = http://hl7.org/fhir/fhir-types#AdministrableProductDefinition 
