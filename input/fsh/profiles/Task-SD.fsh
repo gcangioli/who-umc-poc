@@ -41,9 +41,8 @@ RuleSet: TaskGenerateGSIDCommon
   * ^short = "GSID Assignment"
 * authoredOn 1..
 * lastModified 1..
-* requester only Reference(AuthorizedOrg)
-* requester 0..
 * contained 1..1
+  * ^short = "SubstanceDefinition resource to request GSID for."
 * input 
   * type = TaskInputTypes#substance-request-resource 
   * value[x] only Reference
@@ -53,6 +52,7 @@ RuleSet: TaskGenerateGSIDCommon
   * value[x] only Reference
   * valueReference only Reference (SubstanceDefinitionPublished)
 
+* insert NotUsed(requester)
 * insert NotUsed(encounter)
 * insert NotUsed(insurance)
 * insert NotUsed(restriction)

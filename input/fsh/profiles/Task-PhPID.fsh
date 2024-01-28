@@ -42,9 +42,8 @@ RuleSet: TaskGeneratePhPIDCommon
   * ^short = "PhPID Assignment"
 * authoredOn 1..
 * lastModified 1..
-* requester only Reference(AuthorizedOrg)
-* requester 0..
 * contained 3..
+  * ^short = "Resources, according to 'input', used in PhPID generation."
 * input ^slicing.discriminator.type = #pattern
 * input ^slicing.discriminator.path = "type"
 * input ^slicing.rules = #open
@@ -68,6 +67,7 @@ RuleSet: TaskGeneratePhPIDCommon
   * value[x] only Reference
   * valueReference only Reference (AdministrableProductDefinitionWhoPhP)
 
+* insert NotUsed(requester)
 * insert NotUsed(encounter)
 * insert NotUsed(insurance)
 * insert NotUsed(restriction)
