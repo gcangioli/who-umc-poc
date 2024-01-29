@@ -1,0 +1,73 @@
+{
+    "resourceType": "Task",
+    "id": "template-generated-by-server-gsid-req",      
+    "meta": {
+      "profile": [
+        "http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-gsid"
+      ]
+    },
+    "contained": [
+      {
+        "resourceType": "SubstanceDefinition",
+        "meta": {
+          "profile": [
+            "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-req"
+          ]
+        },
+        "informationSource": [
+          {
+            "reference": "https://www.examplesource.com/123456"
+          }
+        ],
+        "note": [
+          {
+            "text": "Description of substance..."
+          }
+        ],
+        "name": [
+          {
+            "name": "Methotrexate sodium",
+            "preferred": true,
+            "language": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/ValueSet/languages",
+                    "code": "en"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://requester.org/gsidreqid",
+        "value": "123456"
+      }
+    ],
+    "status": "requested",
+    "intent": "proposal",
+    "priority": "routine",
+    "authoredOn": "2024-01-29",
+    "lastModified": "2024-01-29",
+    "input": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+              "code": "substance-request-resource",
+              "display": "Data for substance request"
+            }
+          ],
+          "text": "Data for substance request"
+        },
+        "valueReference": {
+          "reference": "#1bcfe3c5-1876-4e63-911c-8822f5a2a4cd"
+        }
+      }
+    ]
+  }

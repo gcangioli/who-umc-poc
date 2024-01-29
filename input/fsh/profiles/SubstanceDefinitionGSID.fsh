@@ -66,7 +66,7 @@ RuleSet: SubstanceDefinitionCommon
     * ^definition = """European SRS"""
   * text 1..
 * name 1..1
-  * status 1..
+  * status 0..
     * ^short = "name status"
   * preferred 1..
   * language 1..
