@@ -43,20 +43,20 @@ FSHOnly: false
 pages:
   index.md:
     title: Home Page   
+  background.md:
+    title: Background
   substanceRequest.md:
     title: GSID (Substance) Request   
   phpIdRequest.md:
     title: PhPID (AdministrableProductDefinition) Request   
-  versioning.md:
-    title: Versioning
   authentication.md:
     title: Authentication
   profiles.md:
     title: Profiles
   terminologies.md:
     title: Terminologies
-  background.md:
-    title: Background
+  versioning.md:
+    title: Versioning
   downloads.html:
     title: Useful Downloads
   changes.html:
@@ -65,13 +65,14 @@ pages:
 menu:
   IG Home: index.html
   Background: background.html
-  Table of Contents: toc.html
+  Requesting PhP and GSIDs:
+    Substance request: substanceRequest.html
+    PhPID request: phpIdRequest.html
   Authentication: authentication.html
   Specifications:
     Profiles: profiles.html
     Terminology: terminologies.html
-    Substance request: substanceRequest.html
-    PhPID request: phpIdRequest.html
+  Table of Contents: toc.html
   Artifact Index: artifacts.html			
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R5/index.html
