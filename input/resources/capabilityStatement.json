@@ -1,10 +1,10 @@
 {
   "resourceType": "CapabilityStatement",
-  "id": "IDMPOnFHIR",
+  "id": "WHO-UMC-IDMP-service",
   "name": "WHO-UMC IDMP Management and Publish API",
   "title": "API to allow for Requests and Publishing of PhPIDs and GSIDs",
   "status": "draft",
-  "date": "2024-01-26",
+  "date": "2024-01-29",
   "publisher": "Uppsala Monitoring Centre",
   "contact": [
     {
@@ -51,6 +51,13 @@
             },
             {
               "code": "delete"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "identifier",
+              "type": "string",
+              "documentation": "Task identifier from requester on format 'sendingSystem|localId'"
             }
           ]
         },
@@ -105,7 +112,7 @@
             {
               "name": "form-of",
               "type": "string",
-              "documentation": "Find PhPIds for an internal product ID in the"
+              "documentation": "Find PhPIDs for an internal product ID in the"
             },
             {
               "name": "form-of:identifier",
@@ -115,11 +122,11 @@
             {
               "name": "dose-form",
               "type": "string",
-              "documentation": "Find PhPIds with a specific dose-form"
+              "documentation": "Find PhPIDs with a specific dose-form"
             },
             {
               "name": "parent-php",
-              "definition": "http://www.who-umc.org/idmp/phpid/SearchParameter/parentphp",
+              "definition": "http://www.who-umc.org/idmp/SearchParameter/parentphp",
               "type": "string",
               "documentation": "Search PhPIDs based on 'parent' PhPIDs"
             }
