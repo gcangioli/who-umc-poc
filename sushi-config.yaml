@@ -45,10 +45,10 @@ pages:
     title: Home Page   
   background.md:
     title: Background
-  substanceRequest.md:
-    title: GSID (Substance) Request   
   phpIdRequest.md:
     title: PhPID (AdministrableProductDefinition) Request   
+  substanceRequest.md:
+    title: GSID (Substance) Request   
   authentication.md:
     title: Authentication
   profiles.md:
@@ -66,8 +66,8 @@ menu:
   IG Home: index.html
   Background: background.html
   Requesting PhP and GSIDs:
-    Substance request: substanceRequest.html
     PhPID request: phpIdRequest.html
+    GSID request: substanceRequest.html
   Authentication: authentication.html
   Specifications:
     Profiles: profiles.html
