@@ -45,7 +45,7 @@
     }],
     "contact" : [{
       "contact" : {
-        "reference" : "#felleskatalogen"
+        "reference" : "#mah1"
       }
     }],
     "name" : [{
@@ -113,7 +113,7 @@
   },
   {
     "resourceType" : "Organization",
-    "id" : "felleskatalogen",
+    "id" : "mah1",
     "active" : true,
     "type" : [{
       "coding" : [{
@@ -122,18 +122,13 @@
       }],
       "text" : "Non-Healthcare Business or Corporation"
     }],
-    "name" : "Felleskatalogen AS"
+    "name" : "MAH 1"
   }],
   "status" : "requested",
   "intent" : "proposal",
   "priority" : "routine",
   "authoredOn" : "2023-08-28",
   "lastModified" : "2023-08-28",
-  "requester" : {
-    "reference" : "Organization/felleskatalogen",
-    "type" : "Organization",
-    "display" : "Felleskatalogen"
-  },
   "input" : [{
     "type" : {
       "text" : "Data for PhPID request"

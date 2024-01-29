@@ -119,7 +119,7 @@
             "contact": [
                 {
                     "contact": {
-                        "reference": "#datapharm"
+                        "reference": "#mah2"
                     }
                 }
             ]
@@ -178,7 +178,7 @@
         },
         {
             "resourceType": "Organization",
-            "id": "datapharm",
+            "id": "mah2",
             "active": true,
             "type": [
                 {
@@ -188,10 +188,10 @@
                             "code": "bus"
                         }
                     ],
-                    "text": "DataPharm Test FCT35"
+                    "text": "Mah Test FCT35"
                 }
             ],
-            "name": "DataPharm"
+            "name": "MAh 2"
         }
     ],
     "status": "requested",
