@@ -9,6 +9,7 @@ Description: """This profile specified how the SubstanceDefinition is used in re
 * insert SubstanceDefinitionCommon
 * id 0..0
 * identifier 0..0
+* text 0.. 
 
 //*******************************
 // Publish model
@@ -21,6 +22,7 @@ Description: """This profile specified how the SubstanceDefinition is published 
 * insert SubstanceDefinitionCommon
 * id 1..1
 * identifier 1..1
+* text 1.. 
 
 //*******************************
 // Common
@@ -28,7 +30,6 @@ Description: """This profile specified how the SubstanceDefinition is published 
 RuleSet: SubstanceDefinitionCommon
 
 * insert SetFmmandStatusRule ( 0, draft )
-* text 1.. 
 * identifier.system = $gsid
 * status 1..
 * status ^short =	"draft|active|retired|unknown"

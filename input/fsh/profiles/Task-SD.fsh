@@ -52,6 +52,8 @@ RuleSet: TaskGenerateGSIDCommon
   * value[x] only Reference
   * valueReference only Reference (SubstanceDefinitionPublished)
 
+// NOT USED ELEMENTS
+
 * insert NotUsed(requester)
 * insert NotUsed(encounter)
 * insert NotUsed(insurance)

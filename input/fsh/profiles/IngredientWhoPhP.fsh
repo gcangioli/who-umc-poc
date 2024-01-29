@@ -5,19 +5,9 @@ Title: "Ingredient (WHO PhP)"
 Description: """This profile specified how the Ingredient is used in a PhPID request (as contained resource in a MedicinalProductDefinition) by the WHO-UMC PhP HL7 FHIR Service"""
 * insert SetFmmandStatusRule ( 0, draft )
 * id 1..
-// * identifier ^short = "An identifier or code by which the ingredient can be referenced."
-* insert NotUsed(identifier)
-* status 1..
-* status ^short =	"draft|active|retired|unknown"
 
 * for only Reference( AdministrableProductDefinitionWhoPhP or MedicinalProductDefinitionWhoPhPRequest ) //only #?
 * role from VsIngredientRole (example)
-
-* insert NotUsed(allergenicIndicator)
-
-// * allergenicIndicator ^short = "If the ingredient is a known or suspected allergen." // = false
-
-// * manufacturer.manufacturer only Reference(OrganizationWhoPhP)
 
 * substance 1..
   // * code from VsSubstance (example)
@@ -39,3 +29,8 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
     * substance ^short = "Relevant reference substance."
     * strength[x] ^short = "Strength of the reference substance."
  */
+
+* insert NotUsed(status)
+* insert NotUsed(allergenicIndicator)
+* insert NotUsed(identifier)
+* insert NotUsed(manufacturer)

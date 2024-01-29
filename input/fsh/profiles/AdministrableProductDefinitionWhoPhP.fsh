@@ -2,7 +2,7 @@ Profile: AdministrableProductDefinitionWhoPhP
 Parent: AdministrableProductDefinition
 Id: AdministrableProductDefinition-who-php
 Title: "AdministrableProductDefinition (WHO PhP)"
-Description: """This profile specified how the AdministrableProductDefinition is returned (as contained resource) by the WHO-UMC PhP HL7 FHIR Service"""
+Description: """This profile specified how the AdministrableProductDefinition is published by the WHO-UMC IDMP Service"""
 
 * insert SetFmmandStatusRule ( 0, draft )
 * extension contains $parent-php-extension named parentPhp 0..
@@ -29,17 +29,13 @@ Description: """This profile specified how the AdministrableProductDefinition is
 
 * administrableDoseForm from VsAdministrableDoseForm (example)
 
-// * unitOfPresentation from VsUnitofPresentation (example)
-
-// * producedFrom only Reference(ManufacturedItemDefinitionWhoPhP)
-
 * routeOfAdministration 
   * code from VsRouteOfAdministration (example)
+* property
+  * type from VsEdqmPdfCharacteristicType
+  * valueCodeableConcept from VsEdqmPdfCharacteristic (extensible)
 
 * insert NotUsed(unitOfPresentation)
 * insert NotUsed(producedFrom)
 * insert NotUsed(device)
 * insert NotUsed(description)
-* property
-  * type from VsEdqmPdfCharacteristicType
-  * valueCodeableConcept from VsEdqmPdfCharacteristic (extensible)

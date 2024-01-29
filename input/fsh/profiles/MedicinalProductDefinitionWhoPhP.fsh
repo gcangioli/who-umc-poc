@@ -51,32 +51,22 @@ RuleSet: MedicinalProductDefinitionCommon
 // * version ^short = "A business identifier relating to a specific version of the product."
 
 * status ^short = "The status within the lifecycle of this product record."
-* insert NotUsed(statusDate)
 
 * combinedPharmaceuticalDoseForm from VsDoseForm (example)
 * route from VsRouteOfAdministration (example)
 
-* insert NotUsed(legalStatusOfSupply)
-* insert NotUsed(additionalMonitoringIndicator)
-* insert NotUsed(specialMeasures)
-* insert NotUsed(pediatricUseIndicator)
 
 * classification from VsAtcClassification (example)
   * ^short = "Allows the product to be classified by various systems (e.g. ATC)"
-
-* insert NotUsed(pediatricUseIndicator)
 
 * marketingStatus 0.. //not used now?should it be mandatory??
   * country  from VsCountry (preferred)
   * dateRange ^short = "The date when the Medicinal Product is placed on the market by the Marketing Authorization Holder"
   * status ^short = "Status of the marketing of the medicinal product."
 
-* insert NotUsed(packagedMedicinalProduct)
-
 * name 1..
   * productName 1..1
   * productName ^short = "The full product name."
-  //* type ^short = "Type of product name, such as rINN, Proprietary, Non-Proprietary"
   * insert NotUsed(type)
 
   * part 0..*
@@ -87,3 +77,14 @@ RuleSet: MedicinalProductDefinitionCommon
     * country ^short = "Country where this name applies"
     * jurisdiction ^short = "Jurisdiction where this name applies"
     * language ^short = "Language for this name"
+
+// NOT USED ELEMENTS
+
+* insert NotUsed(statusDate)
+* insert NotUsed(legalStatusOfSupply)
+* insert NotUsed(additionalMonitoringIndicator)
+* insert NotUsed(specialMeasures)
+* insert NotUsed(pediatricUseIndicator)
+* insert NotUsed(pediatricUseIndicator)
+* insert NotUsed(packagedMedicinalProduct)
+
