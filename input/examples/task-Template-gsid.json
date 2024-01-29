@@ -1,6 +1,6 @@
-{
+{    
     "resourceType": "Task",
-    "id": "template-generated-by-server-gsid-req",      
+    "id": "template-generated-by-server-gsid-req",
     "meta": {
       "profile": [
         "http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-gsid"
@@ -9,10 +9,29 @@
     "contained": [
       {
         "resourceType": "SubstanceDefinition",
+        "id": "f9746f43-fd84-4cb7-852b-6310c9a1f41a",
         "meta": {
           "profile": [
             "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-req"
           ]
+        },
+        "status": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/publication-status",
+              "code": "active"
+            }
+          ],
+          "text": "Active"
+        },
+        "domain": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/medicinal-product-domain",
+              "code": "Human"
+            }
+          ],
+          "text": "Human use"
         },
         "informationSource": [
           {
@@ -32,7 +51,7 @@
               {
                 "coding": [
                   {
-                    "system": "http://hl7.org/fhir/ValueSet/languages",
+                    "system": "urn:ietf:bcp:47",
                     "code": "en"
                   }
                 ]
@@ -66,7 +85,7 @@
           "text": "Data for substance request"
         },
         "valueReference": {
-          "reference": "#1bcfe3c5-1876-4e63-911c-8822f5a2a4cd"
+          "reference": "#f9746f43-fd84-4cb7-852b-6310c9a1f41a"
         }
       }
     ]
