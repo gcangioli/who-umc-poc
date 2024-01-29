@@ -205,7 +205,7 @@
             {
               "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
               "code": "mpd-request-resource",
-              "display": "Medicinal Product Definition"
+              "display": "Medicinal Product for PhPID request"
             }
           ],
           "text": "Medicinal Product for PhPID request"
@@ -220,7 +220,7 @@
             {
               "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
               "code": "ingredient-request-resource",
-              "display": "Ingredient"
+              "display": "Ingredient for PhPID request"
             }
           ],
           "text": "Ingredient for PhPID request"
@@ -235,7 +235,7 @@
             {
               "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
               "code": "organization-request-resource",
-              "display": "Organization"
+              "display": "Marketing Auth Holder for PhPID request"
             }
           ],
           "text": "Marketing Auth Holder for PhPID request"
