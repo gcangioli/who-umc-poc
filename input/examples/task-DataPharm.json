@@ -199,11 +199,6 @@
     "priority": "routine",
     "authoredOn": "2024-01-17",
     "lastModified": "2024-01-17",
-    "requester": {
-        "reference": "#datapharm",
-        "type": "Organization",
-        "display": "DataPharm"
-    },
     "input": [
         {
             "type": {
