@@ -14,7 +14,7 @@ Description: "This system lists PhPID types: level and stratum"
 CodeSystem: TaskInputTypes
 Id: task-input-type 
 Title: "Task input type"
-Description: "This system lists the asvailable input types for a task"
+Description: "This system lists the available input types for a task"
 * ^experimental = false
 * #mpd-request-resource "Medicinal Product Definition" "Medicinal Product Definition"
 * #ingredient-request-resource "Ingredient" "Ingredient"
