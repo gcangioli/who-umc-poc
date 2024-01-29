@@ -69,9 +69,9 @@ menu:
     PhPID request: phpIdRequest.html
     GSID request: substanceRequest.html
   Authentication: authentication.html
-  Specifications:
-    Profiles: profiles.html
-    Terminology: terminologies.html
+  # Specifications:
+  #   Profiles: profiles.html
+  #   Terminology: terminologies.html
   Table of Contents: toc.html
   Artifact Index: artifacts.html			
   Support:
