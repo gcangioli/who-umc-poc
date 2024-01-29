@@ -34,8 +34,8 @@
           "concept": {
             "coding": [
               {
-                "system": "http://localhost:8085/gsrs",
-                "code": "GSID9XBS2KCF3K1Z1"
+                "system": "http://www.who-umc.org/idmp/gsid",
+                "code": "GSID23G92UMX93H45"
               }
             ],
             "text": "METHOTREXATE SODIUM"
@@ -52,9 +52,9 @@
               },
               "denominator": {
                 "value": 1.0,
-                "unit": "",
+                "unit": "mg",
                 "system": "http://unitsofmeasure.org",
-                "code": ""
+                "code": "mg"
               }
             },
             "textPresentation": "2,74 mg"

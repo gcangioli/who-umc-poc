@@ -71,10 +71,10 @@
                 }
             ],
             "attachedDocument": [
-                {
-                    "reference": "SPC/123",
-                    "type": "SPC"
-                }
+              {
+                "reference": "SPC/123",
+                "type": "DocumentReference"
+              }
             ],
             "name": [
                 {

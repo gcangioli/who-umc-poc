@@ -1,7 +1,7 @@
 {
     "resourceType": "SearchParameter",
     "id": "parent-php",
-    "url": "http://www.who-umc.org/idmp/SearchParameter/phpid-parent",
+    "url": "http://www.who-umc.org/idmp/SearchParameter/parent-phpid",
     "name": "parent-php",
     "title": "Parent PhPID",
     "status": "draft",
