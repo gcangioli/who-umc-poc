@@ -6,7 +6,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: who-umc.fhir.poc-php
 canonical: http://www.who-umc.org/idmp
-version: 0.2.0
+version: 0.3.0
 name: WhoUmcIDMPManagement
 title: WHO-UMC IDMP Management and Publish API 
 status: active

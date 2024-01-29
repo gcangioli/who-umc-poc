@@ -193,7 +193,7 @@
             "name": "DataPharm"
         }
     ],
-    "status": "draft",
+    "status": "requested",
     "intent": "proposal",
     "priority": "routine",
     "authoredOn": "2024-01-17",

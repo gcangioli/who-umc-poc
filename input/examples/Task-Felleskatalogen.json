@@ -124,7 +124,7 @@
     }],
     "name" : "Felleskatalogen AS"
   }],
-  "status" : "draft",
+  "status" : "requested",
   "intent" : "proposal",
   "priority" : "routine",
   "authoredOn" : "2023-08-28",
