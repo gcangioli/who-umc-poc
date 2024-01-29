@@ -16,7 +16,7 @@ Id: task-input-type
 Title: "Task input type"
 Description: "This system lists the asvailable input types for a task"
 * ^experimental = false
-* #mpd-request-resource "Medicinal Product Definition" "Medicinal Product Definition"
-* #ingredient-request-resource "Ingredient" "Ingredient"
-* #organization-request-resource "Organization" "Organization"
+* #mpd-request-resource "Medicinal Product for PhPID request" "Medicinal Product for PhPID request"
+* #ingredient-request-resource "Ingredient for PhPID request" "Ingredient for PhPID request"
+* #organization-request-resource "Marketing Auth Holder for PhPID request" "Marketing Auth Holder for PhPID request"
 * #substance-request-resource "Substance" "Substance"
