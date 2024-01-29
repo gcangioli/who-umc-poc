@@ -11,7 +11,7 @@ Alias: $phpid = https://www.who-umc.org/idmp/phpid
 Alias: $standardterms = https://standardterms.edqm.eu
 
 // ====== extensions ====
-Alias: $parent-php-extension = http://who-umc.org/fhir/php/SearchParameter/parent-php
+Alias: $parent-php-extension = http://www.who-umc.org/idmp/SearchParameter/parent-php
 
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 // =========== Systems =======
@@ -64,10 +64,10 @@ Alias: $VS-medicinal-product-domain =
 Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages
 
 
-Alias: $edqmPdfReleaseChar = http://who-umc.org/idmp/edqm/RCA
-Alias: $edqmPdfBasicDoseForm = http://who-umc.org/idmp/edqm/BDF
-Alias: $edqmPdfIntendedSite = http://who-umc.org/idmp/edqm/ISI
-Alias: $edqmPdfAdministrationMethod = http://who-umc.org/idmp/edqm/AME
+Alias: $edqmPdfReleaseChar = http://www.who-umc.org/idmp/edqm/RCA
+Alias: $edqmPdfBasicDoseForm = http://www.who-umc.org/idmp/edqm/BDF
+Alias: $edqmPdfIntendedSite = http://www.who-umc.org/idmp/edqm/ISI
+Alias: $edqmPdfAdministrationMethod = http://www.who-umc.org/idmp/edqm/AME
 
 // SPOR Code systems (lists)
 	
