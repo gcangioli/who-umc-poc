@@ -6,7 +6,7 @@ Parent: Task
 Id: Task-who-php-phpid
 Title: "Task PhPID request"
 Description: """This profile specified how to use the Task resource to request (via POST) the generation of a PhPID by using the WHO-UMC IDMP FHIR Service"""
-* id 0..0
+//* id 0..0
 * status 1..1 
   * ^short =	"Status of the task should always be 'requested' when a new request"
 * status = #requested  
