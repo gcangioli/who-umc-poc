@@ -6,7 +6,6 @@ Parent: Task
 Id: Task-who-php-gsid
 Title: "Task GSID request"
 Description: """This profile specified how to use the Task resource to request (via POST) the generation of a GSID by using the WHO-UMC IDMP FHIR Service"""
-* id 0..1
 * status 1..1 
   * ^short =	"Status of the task should always be 'requested' when a new request"
 * status = #requested  
