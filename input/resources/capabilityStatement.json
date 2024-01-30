@@ -26,7 +26,7 @@
   "kind": "capability",
   "software": {
     "name": "WHO-UMC IDMP Management and Publish API",
-    "version": "0.2"
+    "version": "0.3"
   },
   "fhirVersion": "5.0.0",
   "format": [
@@ -127,7 +127,7 @@
             {
               "name": "parent-php",
               "definition": "http://www.who-umc.org/idmp/SearchParameter/parent-php",
-              "type": "string",
+              "type": "reference",
               "documentation": "Search PhPIDs based on 'parent' PhPIDs"
             }
           ]
@@ -184,22 +184,6 @@
           ]
         },
         {
-          "type": "CapabilityStatement",
-          "interaction": [
-            {
-              "code": "read"
-            }
-          ]
-        },
-        {
-          "type": "ImplementationGuide",
-          "interaction": [
-            {
-              "code": "read"
-            }
-          ]
-        },
-        {
           "type": "Organization",
           "interaction": [
             {
@@ -221,6 +205,22 @@
               "name": "name",
               "type": "string",
               "documentation": "Name of organization (contains search)"
+            }
+          ]
+        },
+        {
+          "type": "CapabilityStatement",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ]
+        },
+        {
+          "type": "ImplementationGuide",
+          "interaction": [
+            {
+              "code": "read"
             }
           ]
         }
