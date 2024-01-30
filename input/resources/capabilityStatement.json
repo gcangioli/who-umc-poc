@@ -126,7 +126,7 @@
             },
             {
               "name": "parent-php",
-              "definition": "http://www.who-umc.org/idmp/SearchParameter/parentphp",
+              "definition": "http://www.who-umc.org/idmp/SearchParameter/parent-php",
               "type": "string",
               "documentation": "Search PhPIDs based on 'parent' PhPIDs"
             }
