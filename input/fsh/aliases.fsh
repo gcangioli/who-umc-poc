@@ -65,9 +65,9 @@ Alias: $VS-language = http://hl7.org/fhir/ValueSet/languages
 
 
 Alias: $edqmPdfReleaseChar = http://www.who-umc.org/idmp/ValueSet/edqm-RCA
-Alias: $edqmPdfBasicDoseForm = http://www.who-umc.org/idmp/edqm/BDF
+Alias: $edqmPdfBasicDoseForm = http://www.who-umc.org/idmp/ValueSet/edqm-BDF
 Alias: $edqmPdfIntendedSite = http://www.who-umc.org/idmp/ValueSet/edqm-ISI
-Alias: $edqmPdfAdministrationMethod = http://www.who-umc.org/idmp/edqm/AME
+Alias: $edqmPdfAdministrationMethod = http://www.who-umc.org/idmp/ValueSet/edqm-AME
 
 // SPOR Code systems (lists)
 	
