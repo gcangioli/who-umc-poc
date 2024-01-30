@@ -1,3 +1,4 @@
+/*
 ValueSet: VsEdqmPdfIntendedSite
 Id: edqmPdfIntendedSite
 Title: "EDQM PDF characteristics: Intended Site"
@@ -24,4 +25,4 @@ Description: "EDQM Pharmaceutical dose forms characteristics: Intended site"
 * $standardterms#0106 "Gastric"
 * $standardterms#0107 "Gastroenteral"
 * $standardterms#0108 "Intestinal"
-* $standardterms#0109 "Intraperitoneal"
+* $standardterms#0109 "Intraperitoneal" */

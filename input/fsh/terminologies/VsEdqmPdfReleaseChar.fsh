@@ -9,5 +9,4 @@ Description: "EDQM Pharmaceutical dose forms characteristics: Release Characteri
 * $standardterms#0045 "Prolonged"
 * $standardterms#0046 "Modified"
 * $standardterms#0047 "Conventional"
-* $standardterms#0048 "Unknown"
-*/
+* $standardterms#0048 "Unknown" */
