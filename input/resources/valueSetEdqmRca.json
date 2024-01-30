@@ -1,8 +1,8 @@
 {
     "resourceType": "ValueSet",
     "id": "vsEdqmPdfRCAtest",
-    "url": "http://www.who-umc.org/idmp/edqm/RCA-test",
-    "name": "vsEdqmPdfRCAtest",
+    "url": "http://www.who-umc.org/idmp/ValueSet/edqm-RCA",
+    "name": "edqm-RCA",
     "title": "EDQM PDF characteristics: Release Characteristics",
     "status": "draft",
     "experimental": true,
