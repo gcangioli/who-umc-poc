@@ -6,6 +6,13 @@
       "http://www.who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-pub"
     ]
   },
+  "contained": [
+    {
+      "resourceType": "Organization",
+      "id": "sandoz",
+      "name": "Sandoz"
+    }
+  ],
   "identifier": [
     {
       "system": "http://www.who-umc.org/whodrug/productid",
@@ -52,7 +59,7 @@
         ]
       },
       "contact": {
-        "reference": "Organization/sandoz",
+        "reference": "#sandoz",
         "type": "Organization",
         "display": "Sandoz"
       }
