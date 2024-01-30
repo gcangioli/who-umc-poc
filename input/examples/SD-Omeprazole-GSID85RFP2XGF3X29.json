@@ -3,12 +3,12 @@
   "id": "GSID85RFP2XGF3X29",
   "meta": {
     "profile": [
-      "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-who-php-pub"
+      "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-pub"
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div><h1>Substance definition</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>GSID85RFP2XGF3X29</td></tr></table><h2>Name(s)</h2><table><th>Name</th><th>Language</th><th>Preferred</th><tr><td>OMEPRAZOLE</td><td>en</td><td>True</td></tr></table><h2>Other code systems</h2><table><th>System</th><th>Code</th><tr><td>UNII</td><td>KG60484QX9</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Substance definition</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>GSID85RFP2XGF3X29</td></tr></table><h2>Name(s)</h2><table><th>Name</th><th>Language</th><th>Preferred</th><tr><td>OMEPRAZOLE</td><td>en</td><td>True</td></tr></table><h2>Other code systems</h2><table><th>System</th><th>Code</th><tr><td>UNII</td><td>KG60484QX9</td></tr></table></div>"
   },
   "identifier": [
     {
@@ -63,7 +63,7 @@
         {
           "coding": [
             {
-              "system" : "urn:ietf:bcp:47",
+              "system": "urn:ietf:bcp:47",
               "code": "en"
             }
           ]

@@ -17,7 +17,7 @@ Description: """This profile specified how the Ingredient is used in a PhPID req
       * system 1..
       * code 1..
     * text 1..
-  * strength 1..
+  * strength 0..
 
   // to be better specified review
     * ^short = "The quantity of substance, per presentation, or per volume or mass, and type of quantity."

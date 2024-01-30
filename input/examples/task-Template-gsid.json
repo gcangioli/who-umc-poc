@@ -1,92 +1,92 @@
-{    
-    "resourceType": "Task",
-    "id": "template-generated-by-server-gsid-req",
-    "meta": {
-      "profile": [
-        "http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-gsid"
-      ]
-    },
-    "contained": [
-      {
-        "resourceType": "SubstanceDefinition",
-        "id": "f9746f43-fd84-4cb7-852b-6310c9a1f41a",
-        "meta": {
-          "profile": [
-            "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-req"
-          ]
-        },
-        "status": {
-          "coding": [
-            {
-              "system": "http://hl7.org/fhir/publication-status",
-              "code": "active"
-            }
-          ],
-          "text": "Active"
-        },
-        "domain": {
-          "coding": [
-            {
-              "system": "http://hl7.org/fhir/medicinal-product-domain",
-              "code": "Human"
-            }
-          ],
-          "text": "Human use"
-        },
-        "informationSource": [
-          {
-            "reference": "https://www.examplesource.com/123456"
-          }
-        ],
-        "note": [
-          {
-            "text": "Description of substance..."
-          }
-        ],
-        "name": [
-          {
-            "name": "Methotrexate sodium",
-            "preferred": true,
-            "language": [
-              {
-                "coding": [
-                  {
-                    "system": "urn:ietf:bcp:47",
-                    "code": "en"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "identifier": [
-      {
-        "system": "http://requester.org/gsidreqid",
-        "value": "123456"
-      }
-    ],
-    "status": "requested",
-    "intent": "proposal",
-    "priority": "routine",
-    "authoredOn": "2024-01-29",
-    "lastModified": "2024-01-29",
-    "input": [
-      {
-        "type": {
-          "coding": [
-            {
-              "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
-              "code": "substance-request-resource",
-              "display": "Data for substance request"
-            }
-          ],
-          "text": "Data for substance request"
-        },
-        "valueReference": {
-          "reference": "#f9746f43-fd84-4cb7-852b-6310c9a1f41a"
-        }
-      }
+{
+  "resourceType": "Task",
+  "id": "template-generated-by-server-gsid-req",
+  "meta": {
+    "profile": [
+      "http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-gsid"
     ]
-  }
+  },
+  "contained": [
+    {
+      "resourceType": "SubstanceDefinition",
+      "id": "b85e4506-1861-4ec5-8b6b-9633eeb20619",
+      "meta": {
+        "profile": [
+          "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-req"
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/publication-status",
+            "code": "active"
+          }
+        ],
+        "text": "Active"
+      },
+      "domain": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/medicinal-product-domain",
+            "code": "Human"
+          }
+        ],
+        "text": "Human use"
+      },
+      "informationSource": [
+        {
+          "reference": "https://www.examplesource.com/123456"
+        }
+      ],
+      "note": [
+        {
+          "text": "Description of substance..."
+        }
+      ],
+      "name": [
+        {
+          "name": "Methotrexate sodium",
+          "preferred": true,
+          "language": [
+            {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://requester.org/gsidreqid",
+      "value": "123456"
+    }
+  ],
+  "status": "requested",
+  "intent": "proposal",
+  "priority": "routine",
+  "authoredOn": "2024-01-30",
+  "lastModified": "2024-01-30",
+  "input": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://www.who-umc.org/idmp/CodeSystem/task-input-type",
+            "code": "substance-request-resource",
+            "display": "Data for substance request"
+          }
+        ],
+        "text": "Data for substance request"
+      },
+      "valueReference": {
+        "reference": "#b85e4506-1861-4ec5-8b6b-9633eeb20619"
+      }
+    }
+  ]
+}
