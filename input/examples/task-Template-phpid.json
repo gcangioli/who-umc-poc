@@ -52,7 +52,7 @@
       },
       "attachedDocument": [
         {
-          "reference": "SPC/123",
+          "reference": "https://www.hl7.org/fhir/uv/emedicinal-product-info/Bundle-bundlepackageleaflet75type1.html",
           "type": "DocumentReference"
         }
       ],
