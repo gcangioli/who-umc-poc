@@ -8,12 +8,12 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>91B3CA582581F57E4092F13AAF476215</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>4</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2,74 mg</td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration method</td><td>Swallowing (0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended site</td><td>Oral (0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics</td><td>Conventional (0047)</td></tr></table></div>"
+    "div": "<div><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>91B3CA582581F57E4092F13AAF476215</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>4</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2.74 mg</td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration method</td><td>Swallowing (0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended site</td><td>Oral (0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics</td><td>Conventional (0047)</td></tr></table></div>"
   },
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "6cb9f317-79bb-4c6e-81ee-33aca29b620d",
+      "id": "b5547ac7-1ff8-42a3-90ee-1953a963931b",
       "status": "active",
       "for": [
         {
@@ -34,8 +34,8 @@
           "concept": {
             "coding": [
               {
-                "system": "http://www.who-umc.org/idmp/gsid",
-                "code": "GSID23G92UMX93H45"
+                "system": "https://umc-ext-dev-phponfhirdemo-preview-rg01-webapp.azurewebsites.net/gsrs",
+                "code": "GSID9XBS2KCF3K1Z1"
               }
             ],
             "text": "METHOTREXATE SODIUM"
@@ -52,12 +52,12 @@
               },
               "denominator": {
                 "value": 1.0,
-                "unit": "mg",
+                "unit": "",
                 "system": "http://unitsofmeasure.org",
-                "code": "mg"
+                "code": ""
               }
             },
-            "textPresentation": "2,74 mg"
+            "textPresentation": "2.74 mg"
           }
         ]
       }
