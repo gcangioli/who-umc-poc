@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "abe2c49f-74b0-483b-8a1b-4079240979c8",
+      "id": "8127bac6-66b8-43e2-a946-5a12312b6f44",
       "status": "active",
       "for": [
         {
@@ -149,7 +149,7 @@
       "type": {
         "coding": [
           {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/form-part",
+            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
             "code": "BDF"
           }
         ],
@@ -169,7 +169,7 @@
       "type": {
         "coding": [
           {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/form-part",
+            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
             "code": "AME"
           }
         ],
@@ -189,7 +189,7 @@
       "type": {
         "coding": [
           {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/form-part",
+            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
             "code": "ISI"
           }
         ],
@@ -209,7 +209,7 @@
       "type": {
         "coding": [
           {
-            "system": "http://www.who-umc.org/idmp/CodeSystem/form-part",
+            "system": "http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics",
             "code": "RCA"
           }
         ],

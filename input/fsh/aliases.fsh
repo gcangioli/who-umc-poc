@@ -8,7 +8,7 @@ Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
 Alias: $gsid = http://www.who-umc.org/idmp/gsid
 Alias: $phpid = https://www.who-umc.org/idmp/phpid
 // Alias: $php-level = http://www.who-umc.org/idmp/CodeSystem/php-level
-Alias: $form-parts = http://www.who-umc.org/idmp/CodeSystem/form-part
+Alias: $form-parts = http://www.who-umc.org/idmp/CodeSystem/pdfCharacteristics
 // ====== extensions ====
 Alias: $parent-php-extension = http://www.who-umc.org/idmp/StructureDefinition/parent-phpid
 
