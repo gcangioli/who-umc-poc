@@ -33,7 +33,7 @@ RuleSet: SubstanceDefinitionCommon
 * status 1..
 * status ^short =	"draft|active|retired|unknown"
 * domain 1..
-
+* code 0..
 * code.code
   * coding 1..*
     * ^slicing.discriminator[+].type = #pattern
