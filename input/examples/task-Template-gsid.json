@@ -12,7 +12,7 @@
       "id": "b85e4506-1861-4ec5-8b6b-9633eeb20619",
       "meta": {
         "profile": [
-          "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-req"
+          "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinitionRequest"
         ]
       },
       "status": {
