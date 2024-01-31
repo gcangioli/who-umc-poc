@@ -33,6 +33,11 @@
         ],
         "text": "Human use"
       },
+      "informationSource": [
+        {
+          "display": "https://www.examplesource.com/123456"
+        }
+      ],
       "note": [
         {
           "text": "Description of substance..."

@@ -75,7 +75,7 @@ RuleSet: SubstanceDefinitionCommon
 * insert NotUsed(classification)
 * insert NotUsed(grade)
 * insert NotUsed(description)
-* insert NotUsed(informationSource)
+// * insert NotUsed(informationSource)
 
 * insert NotUsed(note)
 * insert NotUsed(manufacturer)
