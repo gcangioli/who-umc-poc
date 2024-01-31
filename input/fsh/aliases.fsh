@@ -8,7 +8,6 @@ Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
 Alias: $gsid = http://www.who-umc.org/idmp/gsid
 Alias: $phpid = https://www.who-umc.org/idmp/phpid
 // Alias: $php-level = http://www.who-umc.org/idmp/CodeSystem/php-level
-Alias: $standardterms = https://standardterms.edqm.eu
 
 // ====== extensions ====
 Alias: $parent-php-extension = http://www.who-umc.org/idmp/StructureDefinition/parent-phpid
@@ -34,6 +33,7 @@ Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $data-absent-reason-CS = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 // External systems
+Alias: $standardterms = https://standardterms.edqm.eu
 Alias: $meddra = http://terminology.hl7.org/CodeSystem/mdr
 Alias: $iso3166 = urn:iso:std:iso:3166
 Alias: $ncithesaurus =  http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl // see https://terminology.hl7.org/CodeSystem-v3-nciThesaurus.html
