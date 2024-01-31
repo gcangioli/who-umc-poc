@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "f49a7173-a034-4c8b-acaf-ec0b6c561b8c",
+      "id": "abe2c49f-74b0-483b-8a1b-4079240979c8",
       "status": "active",
       "for": [
         {
@@ -149,7 +149,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu",
+            "system": "http://www.who-umc.org/idmp/CodeSystem/form-part",
             "code": "BDF"
           }
         ],
@@ -169,7 +169,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu",
+            "system": "http://www.who-umc.org/idmp/CodeSystem/form-part",
             "code": "AME"
           }
         ],
@@ -189,7 +189,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu",
+            "system": "http://www.who-umc.org/idmp/CodeSystem/form-part",
             "code": "ISI"
           }
         ],
@@ -209,7 +209,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu",
+            "system": "http://www.who-umc.org/idmp/CodeSystem/form-part",
             "code": "RCA"
           }
         ],
