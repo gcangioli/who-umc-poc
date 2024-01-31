@@ -87,26 +87,6 @@ Description: "Identifier Type Value Set"
 * ^experimental = false
 * codes from system PhpIdLevels
 
-/*
-//=========================
-ValueSet: VsPhPIDTaskInputTypes
-Id: phpid-task-input-type
-Title: "PhPID request input type value set"
-Description: "PhPID request input type value set"
-* ^experimental = false
-* TaskInputTypes#mpd-request-resource "Medicinal Product Definition"
-* TaskInputTypes#ingredient-request-resource "Ingredient"
-* TaskInputTypes#organization-request-resource "Organization"
-
-//=========================
-ValueSet: VsGSIDTaskInputTypes
-Id: gsid-task-input-type
-Title: "GSID request input type value set"
-Description: "GSID request input type value set"
-* ^experimental = false
-* TaskInputTypes#substance-request-resource "Substance" */
-
-
 //=========================
 ValueSet: VsMpIdSystem
 Id: mpid-system

@@ -13,8 +13,8 @@ Title: "EDQM PDF by characteristics"
 Description: "EDQM Pharmaceutical dose forms by characteristics"
 * ^experimental = true
 * codes from valueset $edqmPdfBasicDoseForm
-* codes from valueset $edqmPdfIntendedSite
 * codes from valueset $edqmPdfAdministrationMethod
+* codes from valueset $edqmPdfIntendedSite
 * codes from valueset $edqmPdfReleaseChar
 
 //=========================
@@ -23,10 +23,10 @@ Id: edqmPdfCharacteristicType
 Title: "Types of EDQM PDF by characteristics"
 Description: "Types of EDQM Pharmaceutical dose forms by characteristics"
 * ^experimental = false
-* $form-parts#BDF "Basic dose form"
-* $form-parts#RCA "Release characteristics"
-* $form-parts#ISI "Intended site"
-* $form-parts#AME "Administration method"
+* $pdfCharacteristrics#BDF "Basic dose form"
+* $pdfCharacteristrics#AME "Administration method"
+* $pdfCharacteristrics#ISI "Intended site"
+* $pdfCharacteristrics#RCA "Release characteristics"
 // previously $standardterms
 
 
