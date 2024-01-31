@@ -87,6 +87,7 @@ Description: "Identifier Type Value Set"
 * ^experimental = false
 * codes from system PhpIdLevels
 
+/*
 //=========================
 ValueSet: VsPhPIDTaskInputTypes
 Id: phpid-task-input-type
@@ -103,7 +104,8 @@ Id: gsid-task-input-type
 Title: "GSID request input type value set"
 Description: "GSID request input type value set"
 * ^experimental = false
-* TaskInputTypes#substance-request-resource "Substance"
+* TaskInputTypes#substance-request-resource "Substance" */
+
 
 //=========================
 ValueSet: VsMpIdSystem
