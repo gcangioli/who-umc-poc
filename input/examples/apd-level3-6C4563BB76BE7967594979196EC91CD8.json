@@ -13,7 +13,7 @@
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "26ab4483-7966-4c67-a55a-c4d987ee33a2",
+      "id": "e7c7684a-9eb8-45ec-9b08-2c2686893c27",
       "status": "active",
       "for": [
         {
@@ -94,7 +94,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "BDF"
           }
         ],
@@ -103,7 +103,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "0069"
           }
         ],
@@ -114,7 +114,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "AME"
           }
         ],
@@ -123,7 +123,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "0019"
           }
         ],
@@ -134,7 +134,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "ISI"
           }
         ],
@@ -143,7 +143,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "0031"
           }
         ],
@@ -154,7 +154,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "RCA"
           }
         ],
@@ -163,7 +163,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "0047"
           }
         ],

@@ -8,12 +8,12 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>8195D4AF1287CCE3442C2F308F61DBBC</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>2</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2.74 mg</td></tr></table><h2>Form</h2><table></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>8195D4AF1287CCE3442C2F308F61DBBC</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>2</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2,74 mg</td></tr></table><h2>Form</h2><table></table></div>"
   },
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "ec1566c5-1bd6-4e03-b456-27e148d4a6c9",
+      "id": "fc90d600-74ab-437d-8d57-64622ec4a463",
       "status": "active",
       "for": [
         {
@@ -57,7 +57,7 @@
                 "code": "mg"
               }
             },
-            "textPresentation": "2.74 mg"
+            "textPresentation": "2,74 mg"
           }
         ]
       }

@@ -8,12 +8,12 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>91B3CA582581F57E4092F13AAF476215</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>4</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2.74 mg</td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration method</td><td>Swallowing (0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended site</td><td>Oral (0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics</td><td>Conventional (0047)</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Pharmaceutical Product (Administrable Product Definition)</h1><table><tr><td style=\"font-weight: bold;\">Id</td><td>91B3CA582581F57E4092F13AAF476215</td></tr><tr><td style=\"font-weight: bold;\">Level</td><td>4</td></tr></table><h2>Ingredients</h2><table><th>Substance</th><th>Strength</th><tr><td>METHOTREXATE SODIUM</td><td>2,74 mg</td></tr></table><h2>Form</h2><table><tr><td style=\"font-weight: bold;\">Basic dose form</td><td>Tablet (0069)</td></tr><tr><td style=\"font-weight: bold;\">Administration method</td><td>Swallowing (0019)</td></tr><tr><td style=\"font-weight: bold;\">Intended site</td><td>Oral (0031)</td></tr><tr><td style=\"font-weight: bold;\">Release characteristics</td><td>Conventional (0047)</td></tr></table></div>"
   },
   "contained": [
     {
       "resourceType": "Ingredient",
-      "id": "fde1a7c5-e40e-45b2-8f77-008144ca1d69",
+      "id": "f49a7173-a034-4c8b-acaf-ec0b6c561b8c",
       "status": "active",
       "for": [
         {
@@ -57,7 +57,7 @@
                 "code": "mg"
               }
             },
-            "textPresentation": "2.74 mg"
+            "textPresentation": "2,74 mg"
           }
         ]
       }
@@ -149,7 +149,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "BDF"
           }
         ],
@@ -158,7 +158,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "0069"
           }
         ],
@@ -169,7 +169,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "AME"
           }
         ],
@@ -178,7 +178,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "0019"
           }
         ],
@@ -189,7 +189,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "ISI"
           }
         ],
@@ -198,7 +198,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "0031"
           }
         ],
@@ -209,7 +209,7 @@
       "type": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "RCA"
           }
         ],
@@ -218,7 +218,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "system": "https://standardterms.edqm.eu/",
+            "system": "https://standardterms.edqm.eu",
             "code": "0047"
           }
         ],
