@@ -55,7 +55,7 @@ RuleSet: TaskGeneratePhPIDCommon
 
 * input[ORG].type = TaskInputTypes#organization-request-resource
 * input[ORG].value[x] only Reference
-* input[ORG].valueReference only Reference (MarketingAuthorizationHolderWhoPhpRequest)
+* input[ORG].valueReference only Reference (Organization) //MarketingAuthorizationHolderWhoPhpRequest
 
 * input[ING].type = TaskInputTypes#ingredient-request-resource
 * input[ING].value[x] only Reference

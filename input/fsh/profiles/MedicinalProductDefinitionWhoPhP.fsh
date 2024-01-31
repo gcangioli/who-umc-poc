@@ -11,7 +11,7 @@ Description: """This profile specified how the MedicinalProductDefinition is use
 * contact 1..1
   * type ^short = "Should be ProposedMAH"
   * contact ^short = "A specific contact, person (in a role), or an organization for this product"
-  * contact only Reference(MarketingAuthorizationHolder-who-php)
+  * contact only Reference(Organization) //MarketingAuthorizationHolder-who-php
 * description ^short = "General description of the medicinal product referred by the ePI"
 * indication ^short = "Narrative text of the authorized indication(s) for this product."
   
@@ -25,7 +25,7 @@ Title: "MedicinalProductDefinition for publication"
 Description: """This profile specified how the MedicinalProductDefinition is published by the WHO-UMC IDMP FHIR Service representing the WHODrug dictionary"""
 * insert MedicinalProductDefinitionCommon
 * contained 0..*
-* contained only IngredientWhoPhP or MarketingAuthorizationHolder-who-php
+* contained only IngredientWhoPhP or Organization //MarketingAuthorizationHolder-who-php
 * contact 0..*
   * type ^short = "Allows the contact to be classified"
   * contact ^short = "A specific contact organization for this product"

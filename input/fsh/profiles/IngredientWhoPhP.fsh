@@ -3,6 +3,7 @@ Parent: Ingredient
 Id: Ingredient-who-php
 Title: "Ingredient (WHO PhP)"
 Description: """This profile specified how the Ingredient is used in a PhPID request (as contained resource in a MedicinalProductDefinition) by the WHO-UMC PhP HL7 FHIR Service"""
+
 * insert SetFmmandStatusRule ( 0, draft )
 * id 1..
 
