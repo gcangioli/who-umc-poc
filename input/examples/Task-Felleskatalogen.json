@@ -4,7 +4,11 @@
   "contained" : [{
     "resourceType" : "MedicinalProductDefinition",
     "id" : "ID-ACC470D6-0B3C-4082-9494-775FB6D2048C",
-    "identifier" : [{
+    "meta": {
+      "profile": [
+          "http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-gsid"
+      ]
+    },"identifier" : [{
       "system" : "http://legemiddelverket.no/FEST/LegemiddelMerkevareID",
       "value" : "ID_ACC470D6-0B3C-4082-9494-775FB6D2048C"
     }],
@@ -73,7 +77,11 @@
   {
     "resourceType" : "Ingredient",
     "id" : "ID-1C149B52-D662-4CE0-9FA3-79865521F9C6",
-    "status" : "draft",
+    "meta": {
+      "profile": [
+        "http://www.who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
+      ]
+    },"status" : "draft",
     "for" : [{
       "reference" : "#ID-ACC470D6-0B3C-4082-9494-775FB6D2048C"
     }],
@@ -112,6 +120,11 @@
   {
     "resourceType" : "Organization",
     "id" : "mah1",
+    "meta": {
+      "profile": [
+        "http://www.who-umc.org/idmp/StructureDefinition/MarketingAuthorizationHolder-who-php"
+      ]
+    },
     "active" : true,
     "type" : [{
       "coding" : [{

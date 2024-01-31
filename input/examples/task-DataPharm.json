@@ -7,7 +7,7 @@
             "id": "5d02cfc1-053f-4694-9ce8-d0ee6c658b72",
             "meta": {
                 "profile": [
-                    "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
+                    "http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-gsid"
                 ]
             },
             "identifier": [
@@ -129,9 +129,9 @@
             "id": "54c6c580-5b34-4032-9403-c9d2154ac073",
             "meta": {
                 "profile": [
-                    "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
+                  "http://www.who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
                 ]
-            },
+              },
             "status": "active",
             "for": [
                 {
@@ -179,6 +179,11 @@
         {
             "resourceType": "Organization",
             "id": "mah2",
+            "meta": {
+                "profile": [
+                  "http://www.who-umc.org/idmp/StructureDefinition/MarketingAuthorizationHolder-who-php"
+                ]
+              },
             "active": true,
             "type": [
                 {
