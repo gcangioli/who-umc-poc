@@ -45,11 +45,11 @@ RuleSet: TaskGenerateGSIDCommon
 * input 
   * type = TaskInputTypes#substance-request-resource 
   * value[x] only Reference
-  * valueReference only Reference (SubstanceDefinitionRequest)
+  * valueReference only Reference (SubstanceDefinition-req)
 * output 
   * type = http://hl7.org/fhir/fhir-types#SubstanceDefinition // check if a fixed value is enough (there are several types of SDs)
   * value[x] only Reference
-  * valueReference only Reference (SubstanceDefinitionPublished)
+  * valueReference only Reference (SubstanceDefinition-pub)
 
 // NOT USED ELEMENTS
 
