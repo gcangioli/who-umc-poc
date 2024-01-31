@@ -1,6 +1,6 @@
 {
   "resourceType": "Task",
-  "id": "template-generated-by-server-phpid-req",      
+  "id": "template-generated-by-server-phpid-req",
   "meta": {
     "profile": [
       "http://www.who-umc.org/idmp/StructureDefinition/Task-who-php-phpid"
@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "MedicinalProductDefinition",
-      "id": "b82f4983-be6b-4c90-b13e-522545925cf6",
+      "id": "3b2ac1ac-879e-475b-8376-07c1cc0b4ace",
       "meta": {
         "profile": [
           "http://www.who-umc.org/idmp/StructureDefinition/MedicinalProductDefinition-who-php-req"
@@ -52,8 +52,7 @@
       },
       "attachedDocument": [
         {
-          "reference": "https://www.hl7.org/fhir/uv/emedicinal-product-info/Bundle-bundlepackageleaflet75type1.html",
-          "type": "DocumentReference"
+          "display": "SPC/123"
         }
       ],
       "contact": [
@@ -109,7 +108,7 @@
     },
     {
       "resourceType": "Ingredient",
-      "id": "d9929c58-2997-413e-bdbb-de6a8391284f",
+      "id": "a025a16a-ead0-42c1-a3f9-03e3547a4d8d",
       "meta": {
         "profile": [
           "http://www.who-umc.org/idmp/StructureDefinition/Ingredient-who-php"
@@ -118,7 +117,7 @@
       "status": "active",
       "for": [
         {
-          "reference": "#b82f4983-be6b-4c90-b13e-522545925cf6"
+          "reference": "#3b2ac1ac-879e-475b-8376-07c1cc0b4ace"
         }
       ],
       "role": {
@@ -158,7 +157,7 @@
                 "code": "mg"
               }
             },
-            "textPresentation": "1.5 mg"
+            "textPresentation": "1,5 mg"
           }
         ]
       }
@@ -166,11 +165,6 @@
     {
       "resourceType": "Organization",
       "id": "acmeinc",
-      "meta": {
-        "profile": [
-          "http://www.who-umc.org/idmp/StructureDefinition/MarketingAuthorizationHolder-who-php"
-        ]
-      },
       "active": true,
       "type": [
         {
@@ -195,8 +189,8 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-01-30",
-  "lastModified": "2024-01-30",
+  "authoredOn": "2024-01-31",
+  "lastModified": "2024-01-31",
   "input": [
     {
       "type": {
@@ -210,7 +204,7 @@
         "text": "Medicinal Product for PhPID request"
       },
       "valueReference": {
-        "reference": "#b82f4983-be6b-4c90-b13e-522545925cf6"
+        "reference": "#3b2ac1ac-879e-475b-8376-07c1cc0b4ace"
       }
     },
     {
@@ -225,7 +219,7 @@
         "text": "Ingredient for PhPID request"
       },
       "valueReference": {
-        "reference": "#d9929c58-2997-413e-bdbb-de6a8391284f"
+        "reference": "#a025a16a-ead0-42c1-a3f9-03e3547a4d8d"
       }
     },
     {

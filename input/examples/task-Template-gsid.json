@@ -9,7 +9,7 @@
   "contained": [
     {
       "resourceType": "SubstanceDefinition",
-      "id": "b85e4506-1861-4ec5-8b6b-9633eeb20619",
+      "id": "8989dab9-72a1-4148-a689-9f634b48ca90",
       "meta": {
         "profile": [
           "http://www.who-umc.org/idmp/StructureDefinition/SubstanceDefinition-req"
@@ -70,8 +70,8 @@
   "status": "requested",
   "intent": "proposal",
   "priority": "routine",
-  "authoredOn": "2024-01-30",
-  "lastModified": "2024-01-30",
+  "authoredOn": "2024-01-31",
+  "lastModified": "2024-01-31",
   "input": [
     {
       "type": {
@@ -85,7 +85,7 @@
         "text": "Data for substance request"
       },
       "valueReference": {
-        "reference": "#b85e4506-1861-4ec5-8b6b-9633eeb20619"
+        "reference": "#8989dab9-72a1-4148-a689-9f634b48ca90"
       }
     }
   ]
