@@ -5,7 +5,7 @@
   "name": "PhpIdLevels",
   "title": "PhPId level",
   "status": "active",
-  "experimental": true,
+  "experimental": false,
   "publisher": "Uppsala Monitoring Centre",
   "description": "This system lists PhPID types: level and stratum",
   "copyright": "Uppsala Monitoring Centre",

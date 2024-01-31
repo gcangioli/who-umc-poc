@@ -7,7 +7,7 @@
   "status": "draft",
   "experimental": true,
   "publisher": "Uppsala Monitoring Centre",
-  "description": "This system lists the available pharmaceutical dose form characteristics",
+  "description": "This system lists PhPID types: level and stratum",
   "copyright": "Uppsala Monitoring Centre",
   "caseSensitive": false,
   "compositional": false,
