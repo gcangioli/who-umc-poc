@@ -11,10 +11,8 @@
 IDMP – Identification of Medicinal Products – is a set of five standards developed by the International Organization for Standardization (ISO) to create a universal framework of structured, coded data that uniquely identify and describe all key aspects of medicinal products.
 The Identification of Medicinal Products (IDMP) standards aim to increase clarity and efficiency in communications about medicines and provide greater certainty to patients no matter where they are.
 
-<figure>
-  <img style="width: 80%; height: 80%;padding-top:0;padding-bottom:0;float:center" src="Overview.png" alt="An overview of IDMP"/>
-  <figcaption>An overview of IDMP</figcaption>
-</figure>
+<img src="Overview.png" alt="An overview of IDMP"/>
+<br clear="all"/>
 
 ##### PhPID and GSID 
 
