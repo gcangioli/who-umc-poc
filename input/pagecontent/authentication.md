@@ -5,8 +5,10 @@ It is possible to search APDs using MPD attributes, like MPD identifier, without
 
 Some information/attributes on the SD that is not within the public domain also requires a special license. Without the license the information will be hidden from the SD resource.
 
-<img src="Authentication.png" alt="An overview of access to resources"/>
-<br clear="all"/>
+<figure>
+  <img style="width: 80%; height: 80%;padding-top:0;padding-bottom:0;float:center" src="Authentication.png" alt="An overview of access to resources"/>
+  <figcaption>An overview of access to resources</figcaption>
+</figure>
 
 ### Authentication process
 TBD
