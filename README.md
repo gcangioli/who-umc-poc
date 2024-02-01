@@ -1,6 +1,10 @@
 # who-umc-poc
 Proof of concept: WHO UMC PhPID and GSID IG
 
+#
+# THIS REPOSITORY HAS BEEN MOVED TO https://github.com/Uppsala-Monitoring-Centre/WHO-UMC-IDMP-Service
+#
+
 ## Definitions
 
 - UMC - Uppsala Monitoring Centre
