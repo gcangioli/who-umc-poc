@@ -35,7 +35,6 @@ Description: """This profile specified how the AdministrableProductDefinition is
   * type from VsEdqmPdfCharacteristicType
   * valueCodeableConcept from VsEdqmPdfCharacteristic (extensible)
 
-* insert NotUsed(unitOfPresentation)
-* insert NotUsed(producedFrom)
-* insert NotUsed(device)
-* insert NotUsed(description)
+* unitOfPresentation 0..0
+* producedFrom 0..0
+* device 0..0

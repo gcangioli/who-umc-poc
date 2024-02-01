@@ -61,14 +61,13 @@ RuleSet: TaskGeneratePhPIDCommon
 * input[ING].value[x] only Reference
 * input[ING].valueReference only Reference (IngredientWhoPhP)
 
-* output 
+* output 0..1
   * type = http://hl7.org/fhir/fhir-types#AdministrableProductDefinition 
   * value[x] only Reference
   * valueReference only Reference (AdministrableProductDefinitionWhoPhP)
 
 // NOT USED ELEMENTS
-
-* insert NotUsed(requester)
-* insert NotUsed(encounter)
-* insert NotUsed(insurance)
-* insert NotUsed(restriction)
+* requester 0..0
+* encounter 0..0
+* insurance 0..0
+* restriction 0..0

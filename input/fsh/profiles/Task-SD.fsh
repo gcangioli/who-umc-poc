@@ -42,11 +42,11 @@ RuleSet: TaskGenerateGSIDCommon
 * lastModified 1..
 * contained 1..1
   * ^short = "SubstanceDefinition resource to request GSID for."
-* input 
+* input 1..1
   * type = TaskInputTypes#substance-request-resource 
   * value[x] only Reference
   * valueReference only Reference (SubstanceDefinition-req)
-* output 
+* output 0..1 
   * type = http://hl7.org/fhir/fhir-types#SubstanceDefinition // check if a fixed value is enough (there are several types of SDs)
   * value[x] only Reference
   * valueReference only Reference (SubstanceDefinition-pub)
